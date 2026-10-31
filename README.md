@@ -3,7 +3,7 @@
 The world's architectural styles on a map, century by century. Every building and structure in Wikidata with an architectural style and coordinates (180,451 items, 1,314 style labels), grouped into 25 style families with a hand-checked mapping table, and mapped through time.
 
 Interactive page: https://maps.tristanhotham.com/architecture-styles/
-Paper: https://doi.org/{{DOI}}
+Paper: https://doi.org/10.5281/zenodo.23842989
 Blog post: https://blog.tristanhotham.com/2026/10/31/architecture-styles/
 
 ## Headline results
@@ -62,7 +62,7 @@ python3 reddit/collage.py       # collage
 
 ## Citation
 
-Hotham, T. (2026) Styles in stone: the world's architectural styles in Wikidata, mapped through time. Zenodo. https://doi.org/{{DOI}}
+Hotham, T. (2026) Styles in stone: the world's architectural styles in Wikidata, mapped through time. Zenodo. https://doi.org/10.5281/zenodo.23842989
 
 Dr Tristan Hotham, Independent researcher. ORCID 0000-0003-4931-9349.
 

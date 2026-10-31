@@ -13,6 +13,6 @@ Source: Wikidata (CC0), every item with an architectural style (P149), coordinat
 Tools: Python (shapely, pyproj, matplotlib); Leaflet for the interactive map.
 
 Interactive version: https://maps.tristanhotham.com/architecture-styles/
-Paper: https://doi.org/{{DOI}}
+Paper: https://doi.org/10.5281/zenodo.23842989
 Blog post: https://blog.tristanhotham.com/2026/10/31/architecture-styles/
 Data and code: https://github.com/Tristan-Hotham/architecture-styles
