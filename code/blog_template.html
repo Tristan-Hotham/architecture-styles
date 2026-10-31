@@ -1,0 +1,149 @@
+<!-- wp:paragraph -->
+<p><em>Romanesque, Gothic, Baroque, the great revivals, Art Deco and concrete: I put {{coverage.n|int}} buildings from Wikidata on one map, sorted by style and century. The architecture textbook falls out of the data on its own, and so does a map of who keeps the records.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/architecture-styles/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="{{DOI_URL}}">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Walk through almost any old town in Europe and you can read its history in its buildings: a round-arched Romanesque church, a Gothic cathedral, a Baroque palace, a Neoclassical bank with columns, a row of Victorian shops, a concrete car park. Each style belonged to a time and a place, and then travelled. I wanted to see that on a map.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Wikidata, the open database behind Wikipedia, records an architectural style for {{coverage.n|int}} buildings and structures that also have coordinates. Between them they use {{families.n_styles|int}} different style labels, from 'Romanesque architecture' to 'zenpō-kōen-fun', a keyhole-shaped Japanese burial mound. That is far too many to colour a map with, so I sorted them into {{families.n_fam|int}} families by hand, from Romanesque and Gothic to Art Deco, Brutalist, Ottoman, Persian and Japanese, and marked the revivals, where a later age borrowed an older style.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_world_map.png|World map with a coloured dot for each of 180,451 buildings, dense across Europe and the eastern United States, with blue clusters of Persian buildings in Iran, purple Japanese shrines in Japan and scattered dots elsewhere|Every building with a style in Wikidata, coloured by family.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The textbook writes itself</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Just under half the buildings ({{dates.pct|pc}}) have a date of construction or foundation. Put them in centuries and the sequence every architecture student learns appears without any help. Romanesque is {{time.s1100_romanesque|pc}} of the dated buildings from the 1100s. Gothic is {{time.s1300_gothic|pc}} of those from the 1300s. Renaissance leads the 1500s, Baroque and Rococo the 1600s and 1700s, Neoclassical the 1800s, and modernism, only just, the 1900s.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_centuries.png|Stacked bar chart of style families by century from the 800s to the 2000s: Romanesque terracotta dominates the 900s to 1100s, Gothic navy the 1200s to 1400s, Renaissance green the 1500s, Baroque crimson the 1600s and 1700s, a mix led by Neoclassical blue in the 1800s, a crowded mix led by Modernist charcoal in the 1900s, and pink postmodern since 2000|What was built, century by century: the share of dated buildings in each style family.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>It works on the map too. Colour each square of Europe by its most common style and the centuries roll across the continent: Romanesque in the 1100s, Gothic from England to the Baltic in the 1300s, Renaissance in Spain, Bohemia and Poland in the 1500s, a Baroque heart to Europe in the 1700s with Britain and Scandinavia already Neoclassical, and then the patchwork of the 1800s and 1900s.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_europe_centuries.png|Six maps of Europe for the 1100s, 1300s, 1500s, 1700s, 1800s and 1900s, each square coloured by its most common style family: terracotta Romanesque in the 1100s, navy Gothic in the 1300s, green Renaissance in the 1500s, crimson Baroque across central Europe in the 1700s, Gothic Revival navy in Britain in the 1800s and a patchwork of Modernist, Art Nouveau and Art Deco in the 1900s|The dominant style family in each square of Europe, century by century.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>One snag with dates. {{dates.y2000|int}} buildings are dated exactly 2000, but only {{dates.y1999|int}} are dated 1999. That is Wikidata storing '20th century' as the last year of the century, and about a fifth of all dates are round centuries like this. I read them as the middle of the century they end, and left out {{dates.anach_n|int}} buildings dated before their style existed, usually a medieval parish whose church was rebuilt in the 1800s.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Gothic goes abroad</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The 1800s were the century of revivals: {{time.s1800_revival|pc}} of buildings dated to that century are in a revival style. The biggest by far is Gothic Revival, with {{revivals.gothic.n|int}} buildings in {{revivals.gothic.n_countries|int}} countries, and the United States has more of them ({{revivals.gothic.usa|int}}) than Germany, Poland or Britain.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_gothic_revival.png|World map of Gothic Revival buildings coloured by the year they were begun, from gold for around 1800 through red to navy for 1920: early gold and orange dots cluster in England and the north-eastern United States, with later purple and navy dots spread across the American Midwest, central Europe, Australia, New Zealand, South Africa, India and South America|Gothic Revival buildings, coloured by the year they were begun.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>You can follow it outwards. In Britain, the first tenth of precisely dated Gothic Revival buildings were begun by {{revivals.gothic.gbr_p10|raw}}. Canada followed by {{revivals.gothic.can_p10|raw}}, Australia by {{revivals.gothic.aus_p10|raw}}, the United States by {{revivals.gothic.usa_p10|raw}} and New Zealand by {{revivals.gothic.nzl_p10|raw}}, and the Americans kept building it long after the British had moved on. The surprise early adopter is Russia, where Catherine the Great built 'pseudo-Gothic' palaces at Chesme and Tsaritsyno in the 1770s.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Other revivals hardly left home. {{revivals.greek.usa_pct|pc}} of the {{revivals.greek.n|int}} Greek Revival buildings are in the United States, the courthouses, banks and plantation houses of a republic that saw itself in Athens. Colonial and Mission Revival are {{revivals.colonialrev.usa_pct|pc}} American.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The columns of power</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Neoclassical is the biggest family of all, {{families.by.neoclassical|int}} buildings, and capitals wear it more than most places. Of the {{capitals.n_caps|int}} national capitals with enough buildings to compare, it is the most common family in six: Helsinki, Washington, Tbilisi, Paris, London and Havana. Helsinki tops the list ({{capitals.top.0.neo_pct|pc}} of its styled buildings), thanks to the Empire-style centre Carl Ludvig Engel built when it became a capital in the 1800s.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_capitals.png|Bar chart of the Neoclassical share of styled buildings within 15 km of twelve capitals: Helsinki 33 per cent, Dublin 30, Minsk 28, Santiago 28, Washington 28, Moscow 27, Tbilisi 27, Copenhagen 27, Warsaw 24, Vilnius 23, Paris 20 and London 20|The Neoclassical share of styled buildings near national capitals.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">A map of who keeps the records</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Now the caveat, and it is a big one. This is not a map of the world's buildings. The United States and Spain hold {{coverage.usa_esp_pct|pc}} of them between them; Spain's total includes {{coverage.esp_masia|int}} Catalan farmhouses. Slovakia has more per head than any other sizeable country. Germany, France and the UK together hold just {{coverage.deu_fra_gbr_pct|pc}}. Europe has {{coverage.europe_pct|pc}} of everything and Africa {{coverage.africa_pct|f1}}%, and China has {{coverage.chn_n|int}} buildings with a style.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_coverage.png|Two bar charts. Left, share of styled buildings by country: United States 22.3 per cent, Spain 20.7, Germany 6.0, Italy 6.0, Slovakia 5.8, Czechia 4.6, Poland 4.1, France 3.9, then Belgium, Russia, the UK and the Netherlands. Right, by continent: Europe 67.9 per cent, North America 24.0, Asia 5.6, South America 1.7, Oceania 0.5 and Africa 0.4|Where the styled buildings are, by country and continent.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>What the map really shows is which heritage lists have been loaded into Wikidata, and how keen editors have been to add a style. The style labels are European in outlook too: Iran's buildings are labelled by dynasty, Japan's shrines by the shape of their roofs, and hardly any Maya or Inca site has a style at all.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>Wikidata gives a style to {{coverage.top.1.n|int}} buildings in Spain and {{coverage.chn_n|int}} in China.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>The interactive map lets you play through the centuries, switch to the dominant style in each patch, filter out the revivals or keep only them, and search for a town or a building. Click any dot for its name, style, date and links to Wikidata and Wikipedia.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I took every Wikidata item with an architectural style and coordinates, through the QLever query service, in {{meta.retrieved|raw}}. I decided the family of every style used by 20 or more buildings by hand, covering {{families.hand_pairs_pct|pc}} of all style statements; the long tail went by words in the label or by the style's parent in Wikidata. Revival styles keep the family of the style they revive, with a flag. A building with several styles takes its most specific one. Dates are Wikidata's inception, with round centuries read as mid-century. The full mapping table, the data and the code are on GitHub, and the paper sets out the method and its limits.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It counts records, not buildings on the ground, and it ranks nothing. If a building near you is missing, or wearing the wrong style, Wikidata is open for anyone to fix.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/architecture-styles/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="{{DOI_URL}}">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/architecture-styles">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="https://www.wikidata.org/">Wikidata</a>, architectural style (P149), coordinates, inception, country and sitelinks, via <a href="https://qlever.cs.uni-freiburg.de/wikidata">QLever</a>. CC0.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.naturalearthdata.com/">Natural Earth</a> countries and populated places (public domain).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Base map tiles on the interactive page © Esri.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

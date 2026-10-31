@@ -1,0 +1,3956 @@
+{
+ "meta": {
+  "retrieved": "2026",
+  "page": "https://maps.tristanhotham.com/architecture-styles/",
+  "repo": "https://github.com/Tristan-Hotham/architecture-styles",
+  "doi": "{{DOI}}",
+  "slug": "architecture-styles"
+ },
+ "coverage": {
+  "n": 180451,
+  "n_countries": 178,
+  "top": [
+   {
+    "iso": "USA",
+    "name": "United States of America",
+    "n": 40197,
+    "pct": 22.3
+   },
+   {
+    "iso": "ESP",
+    "name": "Spain",
+    "n": 37369,
+    "pct": 20.7
+   },
+   {
+    "iso": "DEU",
+    "name": "Germany",
+    "n": 10840,
+    "pct": 6.0
+   },
+   {
+    "iso": "ITA",
+    "name": "Italy",
+    "n": 10819,
+    "pct": 6.0
+   },
+   {
+    "iso": "SVK",
+    "name": "Slovakia",
+    "n": 10486,
+    "pct": 5.8
+   },
+   {
+    "iso": "CZE",
+    "name": "Czech Republic",
+    "n": 8306,
+    "pct": 4.6
+   },
+   {
+    "iso": "POL",
+    "name": "Poland",
+    "n": 7372,
+    "pct": 4.1
+   },
+   {
+    "iso": "FRA",
+    "name": "France",
+    "n": 6998,
+    "pct": 3.9
+   },
+   {
+    "iso": "BEL",
+    "name": "Belgium",
+    "n": 5008,
+    "pct": 2.8
+   },
+   {
+    "iso": "RUS",
+    "name": "Russia",
+    "n": 4399,
+    "pct": 2.4
+   },
+   {
+    "iso": "GBR",
+    "name": "United Kingdom",
+    "n": 4069,
+    "pct": 2.3
+   },
+   {
+    "iso": "NLD",
+    "name": "Netherlands",
+    "n": 3360,
+    "pct": 1.9
+   },
+   {
+    "iso": "BLR",
+    "name": "Belarus",
+    "n": 3031,
+    "pct": 1.7
+   },
+   {
+    "iso": "IRN",
+    "name": "Iran",
+    "n": 2863,
+    "pct": 1.6
+   },
+   {
+    "iso": "CAN",
+    "name": "Canada",
+    "n": 2600,
+    "pct": 1.4
+   },
+   {
+    "iso": "BRA",
+    "name": "Brazil",
+    "n": 2120,
+    "pct": 1.2
+   },
+   {
+    "iso": "JPN",
+    "name": "Japan",
+    "n": 1943,
+    "pct": 1.1
+   },
+   {
+    "iso": "CHE",
+    "name": "Switzerland",
+    "n": 1730,
+    "pct": 1.0
+   },
+   {
+    "iso": "TUR",
+    "name": "Turkey",
+    "n": 1430,
+    "pct": 0.8
+   },
+   {
+    "iso": "AUT",
+    "name": "Austria",
+    "n": 1330,
+    "pct": 0.7
+   }
+  ],
+  "continents": [
+   {
+    "name": "Europe",
+    "n": 122503,
+    "pct": 67.9
+   },
+   {
+    "name": "North America",
+    "n": 43248,
+    "pct": 24.0
+   },
+   {
+    "name": "Asia",
+    "n": 10195,
+    "pct": 5.6
+   },
+   {
+    "name": "South America",
+    "n": 3004,
+    "pct": 1.7
+   },
+   {
+    "name": "Oceania",
+    "n": 817,
+    "pct": 0.5
+   },
+   {
+    "name": "Africa",
+    "n": 679,
+    "pct": 0.4
+   }
+  ],
+  "europe_pct": 67.9,
+  "namerica_pct": 24.0,
+  "asia_pct": 5.6,
+  "africa_pct": 0.4,
+  "africa_n": 679,
+  "samerica_pct": 1.7,
+  "oceania_pct": 0.5,
+  "usa_esp_pct": 43.0,
+  "top5_pct": 60.8,
+  "deu_fra_gbr_pct": 12.1,
+  "chn_n": 381,
+  "ind_n": 1116,
+  "nga_n": 72,
+  "egy_n": 171,
+  "jpn_n": 1943,
+  "irn_n": 2863,
+  "bra_n": 2120,
+  "mex_n": 263,
+  "esp_masia": 5782,
+  "esp_silo": 675,
+  "svk_label_pct": 11,
+  "per_million_top": [
+   {
+    "iso": "SVK",
+    "name": "Slovakia",
+    "v": 1923
+   },
+   {
+    "iso": "ESP",
+    "name": "Spain",
+    "v": 794
+   },
+   {
+    "iso": "CZE",
+    "name": "Czech Republic",
+    "v": 778
+   },
+   {
+    "iso": "BEL",
+    "name": "Belgium",
+    "v": 436
+   },
+   {
+    "iso": "BLR",
+    "name": "Belarus",
+    "v": 320
+   },
+   {
+    "iso": "CHE",
+    "name": "Switzerland",
+    "v": 202
+   },
+   {
+    "iso": "POL",
+    "name": "Poland",
+    "v": 194
+   },
+   {
+    "iso": "NLD",
+    "name": "Netherlands",
+    "v": 194
+   }
+  ],
+  "dated_n": 86148,
+  "dated_pct": 47.7,
+  "label_pct": 84.7,
+  "no_label_n": 27579,
+  "sl0_n": 31807,
+  "sl0_pct": 17.6,
+  "church_n": 37898,
+  "house_n": 24796
+ },
+ "families": {
+  "list": [
+   {
+    "k": "ancient",
+    "name": "Ancient",
+    "n": 526,
+    "pct": 0.3,
+    "rev": 0,
+    "dated": 136,
+    "median": 50,
+    "styles": 32,
+    "top_iso": [
+     {
+      "iso": "IRN",
+      "name": "Iran",
+      "n": 157
+     },
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 79
+     },
+     {
+      "iso": "GRC",
+      "name": "Greece",
+      "n": 76
+     }
+    ]
+   },
+   {
+    "k": "byzantine",
+    "name": "Byzantine and Orthodox",
+    "n": 2716,
+    "pct": 1.5,
+    "rev": 1453,
+    "dated": 1541,
+    "median": 1875,
+    "styles": 30,
+    "top_iso": [
+     {
+      "iso": "RUS",
+      "name": "Russia",
+      "n": 646
+     },
+     {
+      "iso": "BLR",
+      "name": "Belarus",
+      "n": 300
+     },
+     {
+      "iso": "ARM",
+      "name": "Armenia",
+      "n": 222
+     }
+    ]
+   },
+   {
+    "k": "romanesque",
+    "name": "Romanesque",
+    "n": 14110,
+    "pct": 7.8,
+    "rev": 4302,
+    "dated": 5156,
+    "median": 1377,
+    "styles": 51,
+    "top_iso": [
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 2838
+     },
+     {
+      "iso": "FRA",
+      "name": "France",
+      "n": 2718
+     },
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 2226
+     }
+    ]
+   },
+   {
+    "k": "gothic",
+    "name": "Gothic",
+    "n": 22106,
+    "pct": 12.3,
+    "rev": 10776,
+    "dated": 10565,
+    "median": 1850,
+    "styles": 67,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 3565
+     },
+     {
+      "iso": "DEU",
+      "name": "Germany",
+      "n": 3147
+     },
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 2337
+     }
+    ]
+   },
+   {
+    "k": "renaissance",
+    "name": "Renaissance",
+    "n": 13588,
+    "pct": 7.5,
+    "rev": 6852,
+    "dated": 6641,
+    "median": 1850,
+    "styles": 57,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 4171
+     },
+     {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "n": 1998
+     },
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 1397
+     }
+    ]
+   },
+   {
+    "k": "baroque",
+    "name": "Baroque and Rococo",
+    "n": 17035,
+    "pct": 9.4,
+    "rev": 1258,
+    "dated": 8828,
+    "median": 1750,
+    "styles": 72,
+    "top_iso": [
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 2638
+     },
+     {
+      "iso": "CZE",
+      "name": "Czech Republic",
+      "n": 2379
+     },
+     {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "n": 2347
+     }
+    ]
+   },
+   {
+    "k": "neoclassical",
+    "name": "Neoclassical",
+    "n": 26140,
+    "pct": 14.5,
+    "rev": 6094,
+    "dated": 12056,
+    "median": 1850,
+    "styles": 62,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 11561
+     },
+     {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "n": 1915
+     },
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 1671
+     }
+    ]
+   },
+   {
+    "k": "historicist",
+    "name": "Historicist and eclectic",
+    "n": 18678,
+    "pct": 10.4,
+    "rev": 39,
+    "dated": 8139,
+    "median": 1896,
+    "styles": 71,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 6058
+     },
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 5966
+     },
+     {
+      "iso": "NLD",
+      "name": "Netherlands",
+      "n": 947
+     }
+    ]
+   },
+   {
+    "k": "colonial",
+    "name": "Colonial",
+    "n": 5919,
+    "pct": 3.3,
+    "rev": 5196,
+    "dated": 2116,
+    "median": 1914,
+    "styles": 28,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 4770
+     },
+     {
+      "iso": "BRA",
+      "name": "Brazil",
+      "n": 910
+     },
+     {
+      "iso": "CAN",
+      "name": "Canada",
+      "n": 98
+     }
+    ]
+   },
+   {
+    "k": "crafts",
+    "name": "Arts and Crafts and romantic",
+    "n": 3425,
+    "pct": 1.9,
+    "rev": 0,
+    "dated": 1696,
+    "median": 1917,
+    "styles": 27,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 2874
+     },
+     {
+      "iso": "CAN",
+      "name": "Canada",
+      "n": 98
+     },
+     {
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "n": 82
+     }
+    ]
+   },
+   {
+    "k": "nouveau",
+    "name": "Art Nouveau",
+    "n": 7543,
+    "pct": 4.2,
+    "rev": 0,
+    "dated": 3813,
+    "median": 1910,
+    "styles": 23,
+    "top_iso": [
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 3481
+     },
+     {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "n": 475
+     },
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 473
+     }
+    ]
+   },
+   {
+    "k": "deco",
+    "name": "Art Deco",
+    "n": 5275,
+    "pct": 2.9,
+    "rev": 0,
+    "dated": 3635,
+    "median": 1932,
+    "styles": 11,
+    "top_iso": [
+     {
+      "iso": "BEL",
+      "name": "Belgium",
+      "n": 2133
+     },
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 1805
+     },
+     {
+      "iso": "FRA",
+      "name": "France",
+      "n": 277
+     }
+    ]
+   },
+   {
+    "k": "modern",
+    "name": "Modernist",
+    "n": 10359,
+    "pct": 5.7,
+    "rev": 0,
+    "dated": 5570,
+    "median": 1948,
+    "styles": 84,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 1929
+     },
+     {
+      "iso": "DEU",
+      "name": "Germany",
+      "n": 1103
+     },
+     {
+      "iso": "POL",
+      "name": "Poland",
+      "n": 866
+     }
+    ]
+   },
+   {
+    "k": "brutalist",
+    "name": "Brutalist",
+    "n": 913,
+    "pct": 0.5,
+    "rev": 0,
+    "dated": 593,
+    "median": 1970,
+    "styles": 2,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 110
+     },
+     {
+      "iso": "DEU",
+      "name": "Germany",
+      "n": 106
+     },
+     {
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "n": 95
+     }
+    ]
+   },
+   {
+    "k": "postmodern",
+    "name": "Postmodern and contemporary",
+    "n": 1306,
+    "pct": 0.7,
+    "rev": 0,
+    "dated": 731,
+    "median": 1999,
+    "styles": 17,
+    "top_iso": [
+     {
+      "iso": "BRA",
+      "name": "Brazil",
+      "n": 269
+     },
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 203
+     },
+     {
+      "iso": "FRA",
+      "name": "France",
+      "n": 75
+     }
+    ]
+   },
+   {
+    "k": "islamic",
+    "name": "Islamic",
+    "n": 1619,
+    "pct": 0.9,
+    "rev": 407,
+    "dated": 871,
+    "median": 1830,
+    "styles": 44,
+    "top_iso": [
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 502
+     },
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 122
+     },
+     {
+      "iso": "EGY",
+      "name": "Egypt",
+      "n": 81
+     }
+    ]
+   },
+   {
+    "k": "persian",
+    "name": "Persian",
+    "n": 2697,
+    "pct": 1.5,
+    "rev": 0,
+    "dated": 182,
+    "median": 1928,
+    "styles": 19,
+    "top_iso": [
+     {
+      "iso": "IRN",
+      "name": "Iran",
+      "n": 2656
+     },
+     {
+      "iso": "TUR",
+      "name": "Turkey",
+      "n": 8
+     },
+     {
+      "iso": "ARM",
+      "name": "Armenia",
+      "n": 6
+     }
+    ]
+   },
+   {
+    "k": "ottoman",
+    "name": "Ottoman",
+    "n": 1529,
+    "pct": 0.8,
+    "rev": 0,
+    "dated": 464,
+    "median": 1618,
+    "styles": 3,
+    "top_iso": [
+     {
+      "iso": "TUR",
+      "name": "Turkey",
+      "n": 1063
+     },
+     {
+      "iso": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "n": 82
+     },
+     {
+      "iso": "GRC",
+      "name": "Greece",
+      "n": 70
+     }
+    ]
+   },
+   {
+    "k": "mughal",
+    "name": "Mughal and Indo-Islamic",
+    "n": 188,
+    "pct": 0.1,
+    "rev": 49,
+    "dated": 132,
+    "median": 1683,
+    "styles": 8,
+    "top_iso": [
+     {
+      "iso": "IND",
+      "name": "India",
+      "n": 113
+     },
+     {
+      "iso": "PAK",
+      "name": "Pakistan",
+      "n": 35
+     },
+     {
+      "iso": "BGD",
+      "name": "Bangladesh",
+      "n": 16
+     }
+    ]
+   },
+   {
+    "k": "hindu",
+    "name": "Hindu temple",
+    "n": 658,
+    "pct": 0.4,
+    "rev": 0,
+    "dated": 125,
+    "median": 1776,
+    "styles": 24,
+    "top_iso": [
+     {
+      "iso": "IND",
+      "name": "India",
+      "n": 650
+     },
+     {
+      "iso": "SGP",
+      "name": "Singapore",
+      "n": 3
+     },
+     {
+      "iso": "LKA",
+      "name": "Sri Lanka",
+      "n": 1
+     }
+    ]
+   },
+   {
+    "k": "chinese",
+    "name": "Chinese and Korean",
+    "n": 215,
+    "pct": 0.1,
+    "rev": 0,
+    "dated": 115,
+    "median": 1867,
+    "styles": 10,
+    "top_iso": [
+     {
+      "iso": "CHN",
+      "name": "People's Republic of China",
+      "n": 176
+     },
+     {
+      "iso": "TWN",
+      "name": "Taiwan",
+      "n": 10
+     },
+     {
+      "iso": "IDN",
+      "name": "Indonesia",
+      "n": 8
+     }
+    ]
+   },
+   {
+    "k": "japanese",
+    "name": "Japanese",
+    "n": 1647,
+    "pct": 0.9,
+    "rev": 0,
+    "dated": 520,
+    "median": 810,
+    "styles": 56,
+    "top_iso": [
+     {
+      "iso": "JPN",
+      "name": "Japan",
+      "n": 1629
+     },
+     {
+      "iso": "KOR",
+      "name": "South Korea",
+      "n": 6
+     },
+     {
+      "iso": "RUS",
+      "name": "Russia",
+      "n": 3
+     }
+    ]
+   },
+   {
+    "k": "seasian",
+    "name": "Southeast Asian",
+    "n": 36,
+    "pct": 0.0,
+    "rev": 0,
+    "dated": 22,
+    "median": 1879,
+    "styles": 13,
+    "top_iso": [
+     {
+      "iso": "THA",
+      "name": "Thailand",
+      "n": 12
+     },
+     {
+      "iso": "IDN",
+      "name": "Indonesia",
+      "n": 12
+     },
+     {
+      "iso": "MYS",
+      "name": "Malaysia",
+      "n": 5
+     }
+    ]
+   },
+   {
+    "k": "precolumbian",
+    "name": "Pre-Columbian",
+    "n": 30,
+    "pct": 0.0,
+    "rev": 19,
+    "dated": 14,
+    "median": 1927,
+    "styles": 6,
+    "top_iso": [
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 20
+     },
+     {
+      "iso": "GTM",
+      "name": "Guatemala",
+      "n": 5
+     },
+     {
+      "iso": "PER",
+      "name": "Peru",
+      "n": 1
+     }
+    ]
+   },
+   {
+    "k": "vernacular",
+    "name": "Vernacular",
+    "n": 19150,
+    "pct": 10.6,
+    "rev": 0,
+    "dated": 7236,
+    "median": 1801,
+    "styles": 77,
+    "top_iso": [
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 15195
+     },
+     {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "n": 1483
+     },
+     {
+      "iso": "USA",
+      "name": "United States of America",
+      "n": 511
+     }
+    ]
+   },
+   {
+    "k": "other",
+    "name": "Other or general",
+    "n": 3043,
+    "pct": 1.7,
+    "rev": 0,
+    "dated": 2085,
+    "median": 1955,
+    "styles": 420,
+    "top_iso": [
+     {
+      "iso": "ESP",
+      "name": "Spain",
+      "n": 1338
+     },
+     {
+      "iso": "NLD",
+      "name": "Netherlands",
+      "n": 251
+     },
+     {
+      "iso": "ITA",
+      "name": "Italy",
+      "n": 196
+     }
+    ]
+   }
+  ],
+  "by": {
+   "ancient": 526,
+   "byzantine": 2716,
+   "romanesque": 14110,
+   "gothic": 22106,
+   "renaissance": 13588,
+   "baroque": 17035,
+   "neoclassical": 26140,
+   "historicist": 18678,
+   "colonial": 5919,
+   "crafts": 3425,
+   "nouveau": 7543,
+   "deco": 5275,
+   "modern": 10359,
+   "brutalist": 913,
+   "postmodern": 1306,
+   "islamic": 1619,
+   "persian": 2697,
+   "ottoman": 1529,
+   "mughal": 188,
+   "hindu": 658,
+   "chinese": 215,
+   "japanese": 1647,
+   "seasian": 36,
+   "precolumbian": 30,
+   "vernacular": 19150,
+   "other": 3043
+  },
+  "rank": [
+   "neoclassical",
+   "gothic",
+   "vernacular",
+   "historicist",
+   "baroque",
+   "romanesque",
+   "renaissance",
+   "modern",
+   "nouveau",
+   "colonial",
+   "deco",
+   "crafts",
+   "byzantine",
+   "persian",
+   "japanese",
+   "islamic",
+   "ottoman",
+   "postmodern",
+   "brutalist",
+   "hindu",
+   "ancient",
+   "chinese",
+   "mughal",
+   "seasian",
+   "precolumbian"
+  ],
+  "n_fam": 25,
+  "n_styles": 1314,
+  "n_pairs": 196135,
+  "multi_fam": 9731,
+  "revival_n": 36445,
+  "revival_pct": 20.2,
+  "how_styles": {
+   "keyword": 417,
+   "hand": 478,
+   "none": 358,
+   "ancestor": 61
+  },
+  "how_pairs": {
+   "keyword": 1149,
+   "hand": 194269,
+   "none": 589,
+   "ancestor": 128
+  },
+  "hand_pairs_pct": 99.0,
+  "other_pct": 1.7,
+  "non_euro_fams": 8619,
+  "top_styles": [
+   {
+    "q": "Q930314",
+    "label": "vernacular architecture",
+    "n": 18281,
+    "f": "vernacular"
+   },
+   {
+    "q": "Q840829",
+    "label": "baroque architecture",
+    "n": 13536,
+    "f": "baroque"
+   },
+   {
+    "q": "Q54111",
+    "label": "Neoclassical architecture",
+    "n": 11064,
+    "f": "neoclassical"
+   },
+   {
+    "q": "Q186363",
+    "label": "Gothic Revival",
+    "n": 10188,
+    "f": "gothic"
+   },
+   {
+    "q": "Q46261",
+    "label": "Romanesque architecture",
+    "n": 9011,
+    "f": "romanesque"
+   },
+   {
+    "q": "Q176483",
+    "label": "Gothic architecture",
+    "n": 8664,
+    "f": "gothic"
+   },
+   {
+    "q": "Q2479493",
+    "label": "eclectic architecture",
+    "n": 6854,
+    "f": "historicist"
+   },
+   {
+    "q": "Q1295040",
+    "label": "Art Nouveau architecture",
+    "n": 5896,
+    "f": "nouveau"
+   },
+   {
+    "q": "Q1513688",
+    "label": "Greek Revival architecture",
+    "n": 5518,
+    "f": "neoclassical"
+   },
+   {
+    "q": "Q245188",
+    "label": "modern architecture",
+    "n": 5508,
+    "f": "modern"
+   },
+   {
+    "q": "Q502163",
+    "label": "Renaissance Revival architecture",
+    "n": 5448,
+    "f": "renaissance"
+   },
+   {
+    "q": "Q236122",
+    "label": "Renaissance architecture",
+    "n": 5355,
+    "f": "renaissance"
+   }
+  ],
+  "non_euro_pct": 4.8
+ },
+ "dates": {
+  "n": 86148,
+  "pct": 47.7,
+  "round100_pct": 20.9,
+  "round10_pct": 32.7,
+  "bce": 89,
+  "future_dropped": 36,
+  "anach_n": 3166,
+  "anach_pct_dated": 3.7,
+  "time_n": 82982,
+  "earliest": -3999,
+  "y1900": 3454,
+  "y1899": 502,
+  "y1901": 1104,
+  "y1500": 1229,
+  "y1501": 142,
+  "y1499": 10,
+  "y2000": 2374,
+  "y1999": 51,
+  "y2001": 56,
+  "after1800_pct": 69.3,
+  "after1900_pct": 41.6,
+  "anach_gothic_rev": 166
+ },
+ "time": {
+  "timeline": [
+   {
+    "c": -500,
+    "label": "before 400 BCE",
+    "n": 49,
+    "counts": {
+     "ancient": 31,
+     "byzantine": 2,
+     "romanesque": 1,
+     "vernacular": 1,
+     "other": 14
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": -400,
+    "label": "400s BCE",
+    "n": 16,
+    "counts": {
+     "ancient": 11,
+     "other": 5
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": -300,
+    "label": "300s BCE",
+    "n": 5,
+    "counts": {
+     "ancient": 4,
+     "other": 1
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": -200,
+    "label": "200s BCE",
+    "n": 8,
+    "counts": {
+     "ancient": 6,
+     "other": 2
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": -100,
+    "label": "100s BCE",
+    "n": 9,
+    "counts": {
+     "ancient": 8,
+     "japanese": 1
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": 0,
+    "label": "0s",
+    "n": 42,
+    "counts": {
+     "ancient": 17,
+     "byzantine": 5,
+     "romanesque": 1,
+     "islamic": 9,
+     "persian": 2,
+     "hindu": 1,
+     "chinese": 1,
+     "seasian": 1,
+     "vernacular": 2,
+     "other": 3
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": 100,
+    "label": "100s",
+    "n": 18,
+    "counts": {
+     "ancient": 15,
+     "byzantine": 1,
+     "other": 2
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": 200,
+    "label": "200s",
+    "n": 28,
+    "counts": {
+     "ancient": 12,
+     "byzantine": 2,
+     "romanesque": 2,
+     "hindu": 1,
+     "chinese": 2,
+     "japanese": 9
+    },
+    "dom": "ancient"
+   },
+   {
+    "c": 300,
+    "label": "300s",
+    "n": 60,
+    "counts": {
+     "ancient": 3,
+     "byzantine": 19,
+     "romanesque": 4,
+     "chinese": 1,
+     "japanese": 32,
+     "other": 1
+    },
+    "dom": "japanese"
+   },
+   {
+    "c": 400,
+    "label": "400s",
+    "n": 121,
+    "counts": {
+     "ancient": 2,
+     "byzantine": 39,
+     "romanesque": 10,
+     "islamic": 1,
+     "hindu": 1,
+     "chinese": 3,
+     "japanese": 65
+    },
+    "dom": "japanese"
+   },
+   {
+    "c": 500,
+    "label": "500s",
+    "n": 112,
+    "counts": {
+     "ancient": 2,
+     "byzantine": 27,
+     "romanesque": 15,
+     "japanese": 65,
+     "vernacular": 1,
+     "other": 2
+    },
+    "dom": "japanese"
+   },
+   {
+    "c": 600,
+    "label": "600s",
+    "n": 114,
+    "counts": {
+     "byzantine": 36,
+     "romanesque": 25,
+     "islamic": 9,
+     "hindu": 1,
+     "japanese": 39,
+     "vernacular": 1,
+     "other": 3
+    },
+    "dom": "japanese"
+   },
+   {
+    "c": 700,
+    "label": "700s",
+    "n": 115,
+    "counts": {
+     "byzantine": 9,
+     "romanesque": 37,
+     "islamic": 15,
+     "hindu": 1,
+     "chinese": 3,
+     "japanese": 41,
+     "precolumbian": 1,
+     "vernacular": 2,
+     "other": 6
+    },
+    "dom": "japanese"
+   },
+   {
+    "c": 800,
+    "label": "800s",
+    "n": 156,
+    "counts": {
+     "byzantine": 28,
+     "romanesque": 69,
+     "islamic": 19,
+     "japanese": 28,
+     "seasian": 1,
+     "vernacular": 8,
+     "other": 3
+    },
+    "dom": "romanesque"
+   },
+   {
+    "c": 900,
+    "label": "900s",
+    "n": 265,
+    "counts": {
+     "byzantine": 53,
+     "romanesque": 154,
+     "islamic": 10,
+     "persian": 3,
+     "hindu": 1,
+     "japanese": 17,
+     "vernacular": 15,
+     "other": 12
+    },
+    "dom": "romanesque"
+   },
+   {
+    "c": 1000,
+    "label": "1000s",
+    "n": 766,
+    "counts": {
+     "byzantine": 42,
+     "romanesque": 619,
+     "gothic": 4,
+     "islamic": 21,
+     "persian": 2,
+     "hindu": 1,
+     "chinese": 2,
+     "japanese": 7,
+     "vernacular": 40,
+     "other": 28
+    },
+    "dom": "romanesque"
+   },
+   {
+    "c": 1100,
+    "label": "1100s",
+    "n": 1715,
+    "counts": {
+     "byzantine": 52,
+     "romanesque": 1078,
+     "gothic": 393,
+     "islamic": 51,
+     "persian": 4,
+     "mughal": 1,
+     "hindu": 3,
+     "chinese": 1,
+     "japanese": 15,
+     "vernacular": 74,
+     "other": 43
+    },
+    "dom": "romanesque"
+   },
+   {
+    "c": 1200,
+    "label": "1200s",
+    "n": 1869,
+    "counts": {
+     "ancient": 1,
+     "byzantine": 54,
+     "romanesque": 489,
+     "gothic": 1091,
+     "islamic": 61,
+     "persian": 3,
+     "hindu": 1,
+     "japanese": 4,
+     "vernacular": 113,
+     "other": 52
+    },
+    "dom": "gothic"
+   },
+   {
+    "c": 1300,
+    "label": "1300s",
+    "n": 1585,
+    "counts": {
+     "ancient": 1,
+     "byzantine": 35,
+     "romanesque": 80,
+     "gothic": 1148,
+     "renaissance": 10,
+     "islamic": 79,
+     "persian": 8,
+     "ottoman": 14,
+     "mughal": 5,
+     "chinese": 4,
+     "japanese": 16,
+     "seasian": 2,
+     "vernacular": 151,
+     "other": 32
+    },
+    "dom": "gothic"
+   },
+   {
+    "c": 1400,
+    "label": "1400s",
+    "n": 2071,
+    "counts": {
+     "ancient": 2,
+     "byzantine": 17,
+     "romanesque": 67,
+     "gothic": 1104,
+     "renaissance": 521,
+     "islamic": 54,
+     "persian": 9,
+     "ottoman": 72,
+     "mughal": 15,
+     "hindu": 1,
+     "chinese": 5,
+     "japanese": 12,
+     "vernacular": 156,
+     "other": 36
+    },
+    "dom": "gothic"
+   },
+   {
+    "c": 1500,
+    "label": "1500s",
+    "n": 3218,
+    "counts": {
+     "byzantine": 10,
+     "romanesque": 43,
+     "gothic": 579,
+     "renaissance": 1369,
+     "baroque": 389,
+     "neoclassical": 29,
+     "colonial": 6,
+     "islamic": 48,
+     "persian": 6,
+     "ottoman": 133,
+     "mughal": 14,
+     "hindu": 1,
+     "chinese": 5,
+     "japanese": 4,
+     "seasian": 1,
+     "vernacular": 542,
+     "other": 39
+    },
+    "dom": "renaissance"
+   },
+   {
+    "c": 1600,
+    "label": "1600s",
+    "n": 5135,
+    "counts": {
+     "ancient": 3,
+     "byzantine": 77,
+     "romanesque": 68,
+     "gothic": 149,
+     "renaissance": 1068,
+     "baroque": 2187,
+     "neoclassical": 385,
+     "colonial": 75,
+     "islamic": 18,
+     "persian": 11,
+     "ottoman": 53,
+     "mughal": 35,
+     "hindu": 23,
+     "chinese": 9,
+     "japanese": 32,
+     "seasian": 1,
+     "precolumbian": 1,
+     "vernacular": 907,
+     "other": 33
+    },
+    "dom": "baroque"
+   },
+   {
+    "c": 1700,
+    "label": "1700s",
+    "n": 9434,
+    "counts": {
+     "ancient": 3,
+     "byzantine": 29,
+     "romanesque": 81,
+     "gothic": 171,
+     "renaissance": 108,
+     "baroque": 4792,
+     "neoclassical": 2176,
+     "historicist": 32,
+     "colonial": 246,
+     "islamic": 27,
+     "persian": 4,
+     "ottoman": 62,
+     "mughal": 14,
+     "hindu": 41,
+     "chinese": 12,
+     "japanese": 9,
+     "seasian": 3,
+     "precolumbian": 1,
+     "vernacular": 1587,
+     "other": 36
+    },
+    "dom": "baroque"
+   },
+   {
+    "c": 1800,
+    "label": "1800s",
+    "n": 23708,
+    "counts": {
+     "ancient": 8,
+     "byzantine": 479,
+     "romanesque": 1429,
+     "gothic": 3978,
+     "renaissance": 2469,
+     "baroque": 723,
+     "neoclassical": 6322,
+     "historicist": 4470,
+     "colonial": 339,
+     "crafts": 217,
+     "nouveau": 390,
+     "deco": 20,
+     "modern": 91,
+     "islamic": 182,
+     "persian": 22,
+     "ottoman": 73,
+     "mughal": 19,
+     "hindu": 37,
+     "chinese": 21,
+     "japanese": 63,
+     "seasian": 4,
+     "vernacular": 2144,
+     "other": 208
+    },
+    "dom": "neoclassical"
+   },
+   {
+    "c": 1900,
+    "label": "1900s",
+    "n": 31217,
+    "counts": {
+     "ancient": 6,
+     "byzantine": 428,
+     "romanesque": 874,
+     "gothic": 1938,
+     "renaissance": 1079,
+     "baroque": 726,
+     "neoclassical": 3062,
+     "historicist": 3613,
+     "colonial": 1440,
+     "crafts": 1472,
+     "nouveau": 3395,
+     "deco": 3593,
+     "modern": 5154,
+     "brutalist": 588,
+     "postmodern": 371,
+     "islamic": 227,
+     "persian": 107,
+     "ottoman": 41,
+     "mughal": 25,
+     "hindu": 8,
+     "chinese": 38,
+     "japanese": 59,
+     "seasian": 5,
+     "precolumbian": 11,
+     "vernacular": 1459,
+     "other": 1498
+    },
+    "dom": "modern"
+   },
+   {
+    "c": 2000,
+    "label": "2000s",
+    "n": 1146,
+    "counts": {
+     "ancient": 1,
+     "byzantine": 97,
+     "romanesque": 10,
+     "gothic": 10,
+     "renaissance": 17,
+     "baroque": 11,
+     "neoclassical": 82,
+     "historicist": 24,
+     "colonial": 10,
+     "crafts": 7,
+     "nouveau": 28,
+     "deco": 22,
+     "modern": 325,
+     "brutalist": 5,
+     "postmodern": 360,
+     "islamic": 40,
+     "persian": 1,
+     "ottoman": 16,
+     "mughal": 4,
+     "hindu": 3,
+     "chinese": 8,
+     "japanese": 2,
+     "seasian": 4,
+     "vernacular": 33,
+     "other": 26
+    },
+    "dom": "postmodern"
+   }
+  ],
+  "sens_maxdiff": 20.2,
+  "sens_domchange": 3,
+  "peak": 1900,
+  "n1800": 23708,
+  "n1900": 31217,
+  "dom": {
+   "-500": "ancient",
+   "-400": "ancient",
+   "-300": "ancient",
+   "-200": "ancient",
+   "-100": "ancient",
+   "0": "ancient",
+   "100": "ancient",
+   "200": "ancient",
+   "300": "japanese",
+   "400": "japanese",
+   "500": "japanese",
+   "600": "japanese",
+   "700": "japanese",
+   "800": "romanesque",
+   "900": "romanesque",
+   "1000": "romanesque",
+   "1100": "romanesque",
+   "1200": "gothic",
+   "1300": "gothic",
+   "1400": "gothic",
+   "1500": "renaissance",
+   "1600": "baroque",
+   "1700": "baroque",
+   "1800": "neoclassical",
+   "1900": "modern",
+   "2000": "postmodern"
+  },
+  "s1100_romanesque": 62.9,
+  "s1300_gothic": 72.4,
+  "s1500_renaissance": 42.5,
+  "s1700_baroque": 50.8,
+  "s1800_neoclassical": 26.7,
+  "s1900_modern": 16.5,
+  "s1900_deco": 11.5,
+  "s1900_nouveau": 10.9,
+  "s1800_gothic": 16.8,
+  "s1800_revival": 41.8,
+  "s1900_revival": 20.7,
+  "s2000_postmodern": 31.4,
+  "s2000_modern": 28.4
+ },
+ "revivals": {
+  "gothic": {
+   "n": 10776,
+   "n_countries": 97,
+   "usa": 3426,
+   "gbr": 1175,
+   "deu": 1384,
+   "pol": 1219,
+   "can": 522,
+   "empire_n": 1962,
+   "empire_countries": 17,
+   "empire_ex_gbr_n": 787,
+   "outside_europe": 4349,
+   "outside_europe_pct": 40.4,
+   "table": [
+    {
+     "iso": "RUS",
+     "name": "Russia",
+     "cont": "Europe",
+     "n": 84,
+     "p10": 1784,
+     "median": 1894
+    },
+    {
+     "iso": "LVA",
+     "name": "Latvia",
+     "cont": "Europe",
+     "n": 35,
+     "p10": 1801,
+     "median": 1863
+    },
+    {
+     "iso": "BLR",
+     "name": "Belarus",
+     "cont": "Europe",
+     "n": 33,
+     "p10": 1801,
+     "median": 1893
+    },
+    {
+     "iso": "FIN",
+     "name": "Finland",
+     "cont": "Europe",
+     "n": 72,
+     "p10": 1806,
+     "median": 1878
+    },
+    {
+     "iso": "IRL",
+     "name": "Ireland",
+     "cont": "Europe",
+     "n": 64,
+     "p10": 1823,
+     "median": 1855
+    },
+    {
+     "iso": "UKR",
+     "name": "Ukraine",
+     "cont": "Europe",
+     "n": 16,
+     "p10": 1824,
+     "median": 1890
+    },
+    {
+     "iso": "GBR",
+     "name": "United Kingdom",
+     "cont": "Europe",
+     "n": 892,
+     "p10": 1832,
+     "median": 1870
+    },
+    {
+     "iso": "CHE",
+     "name": "Switzerland",
+     "cont": "Europe",
+     "n": 49,
+     "p10": 1844,
+     "median": 1882
+    },
+    {
+     "iso": "CAN",
+     "name": "Canada",
+     "cont": "North America",
+     "n": 396,
+     "p10": 1848,
+     "median": 1880
+    },
+    {
+     "iso": "AUS",
+     "name": "Australia",
+     "cont": "Oceania",
+     "n": 45,
+     "p10": 1849,
+     "median": 1871
+    },
+    {
+     "iso": "CZE",
+     "name": "Czech Republic",
+     "cont": "Europe",
+     "n": 165,
+     "p10": 1850,
+     "median": 1880
+    },
+    {
+     "iso": "SVK",
+     "name": "Slovakia",
+     "cont": "Europe",
+     "n": 48,
+     "p10": 1851,
+     "median": 1889
+    },
+    {
+     "iso": "AUT",
+     "name": "Austria",
+     "cont": "Europe",
+     "n": 19,
+     "p10": 1853,
+     "median": 1875
+    },
+    {
+     "iso": "BEL",
+     "name": "Belgium",
+     "cont": "Europe",
+     "n": 225,
+     "p10": 1853,
+     "median": 1892
+    },
+    {
+     "iso": "BRA",
+     "name": "Brazil",
+     "cont": "South America",
+     "n": 25,
+     "p10": 1853,
+     "median": 1898
+    },
+    {
+     "iso": "FRA",
+     "name": "France",
+     "cont": "Europe",
+     "n": 240,
+     "p10": 1854,
+     "median": 1877
+    },
+    {
+     "iso": "DEU",
+     "name": "Germany",
+     "cont": "Europe",
+     "n": 416,
+     "p10": 1854,
+     "median": 1886
+    },
+    {
+     "iso": "USA",
+     "name": "United States of America",
+     "cont": "North America",
+     "n": 1454,
+     "p10": 1854,
+     "median": 1896
+    },
+    {
+     "iso": "POL",
+     "name": "Poland",
+     "cont": "Europe",
+     "n": 336,
+     "p10": 1857,
+     "median": 1894
+    },
+    {
+     "iso": "NOR",
+     "name": "Norway",
+     "cont": "Europe",
+     "n": 48,
+     "p10": 1858,
+     "median": 1881
+    },
+    {
+     "iso": "ITA",
+     "name": "Italy",
+     "cont": "Europe",
+     "n": 146,
+     "p10": 1860,
+     "median": 1898
+    },
+    {
+     "iso": "NLD",
+     "name": "Netherlands",
+     "cont": "Europe",
+     "n": 114,
+     "p10": 1861,
+     "median": 1887
+    },
+    {
+     "iso": "NZL",
+     "name": "New Zealand",
+     "cont": "Oceania",
+     "n": 45,
+     "p10": 1864,
+     "median": 1884
+    },
+    {
+     "iso": "ESP",
+     "name": "Spain",
+     "cont": "Europe",
+     "n": 52,
+     "p10": 1870,
+     "median": 1897
+    }
+   ],
+   "top": [
+    {
+     "iso": "USA",
+     "name": "United States of America",
+     "n": 3426
+    },
+    {
+     "iso": "DEU",
+     "name": "Germany",
+     "n": 1384
+    },
+    {
+     "iso": "POL",
+     "name": "Poland",
+     "n": 1219
+    },
+    {
+     "iso": "GBR",
+     "name": "United Kingdom",
+     "n": 1175
+    },
+    {
+     "iso": "CAN",
+     "name": "Canada",
+     "n": 522
+    },
+    {
+     "iso": "FRA",
+     "name": "France",
+     "n": 381
+    }
+   ],
+   "fra": 381,
+   "nld": 184,
+   "gbr_med": 1870,
+   "gbr_p10": 1832,
+   "usa_med": 1896,
+   "usa_p10": 1854,
+   "can_med": 1880,
+   "can_p10": 1848,
+   "aus_med": 1871,
+   "aus_p10": 1849,
+   "nzl_med": 1884,
+   "nzl_p10": 1864,
+   "deu_med": 1886,
+   "deu_p10": 1854,
+   "fra_med": 1877,
+   "fra_p10": 1854,
+   "pol_med": 1894,
+   "pol_p10": 1857,
+   "by_cont": {
+    "North America": {
+     "n": 1862,
+     "median": 1892
+    },
+    "Europe": {
+     "n": 3148,
+     "median": 1880
+    },
+    "South America": {
+     "n": 54,
+     "median": 1910
+    },
+    "Oceania": {
+     "n": 90,
+     "median": 1877
+    },
+    "Asia": {
+     "n": 68,
+     "median": 1899
+    },
+    "Africa": {
+     "n": 19,
+     "median": 1909
+    }
+   },
+   "countries": 97
+  },
+  "greek": {
+   "n": 5518,
+   "by_cont": {
+    "North America": {
+     "n": 1686,
+     "median": 1848
+    },
+    "Europe": {
+     "n": 47,
+     "median": 1830
+    }
+   },
+   "countries": 17,
+   "top": [
+    {
+     "iso": "USA",
+     "name": "United States of America",
+     "n": 5313
+    },
+    {
+     "iso": "CAN",
+     "name": "Canada",
+     "n": 118
+    },
+    {
+     "iso": "GBR",
+     "name": "United Kingdom",
+     "n": 55
+    },
+    {
+     "iso": "RUS",
+     "name": "Russia",
+     "n": 7
+    },
+    {
+     "iso": "DEU",
+     "name": "Germany",
+     "n": 6
+    },
+    {
+     "iso": "IRL",
+     "name": "Ireland",
+     "n": 4
+    }
+   ],
+   "usa": 5313,
+   "usa_pct": 96
+  },
+  "moorish": {
+   "n": 407,
+   "by_cont": {
+    "North America": {
+     "n": 60,
+     "median": 1912
+    },
+    "Europe": {
+     "n": 150,
+     "median": 1895
+    },
+    "Africa": {
+     "n": 12,
+     "median": 1909
+    }
+   },
+   "countries": 46,
+   "top": [
+    {
+     "iso": "ESP",
+     "name": "Spain",
+     "n": 126
+    },
+    {
+     "iso": "USA",
+     "name": "United States of America",
+     "n": 110
+    },
+    {
+     "iso": "DEU",
+     "name": "Germany",
+     "n": 17
+    },
+    {
+     "iso": "FRA",
+     "name": "France",
+     "n": 16
+    },
+    {
+     "iso": "RUS",
+     "name": "Russia",
+     "n": 13
+    },
+    {
+     "iso": "UKR",
+     "name": "Ukraine",
+     "n": 10
+    }
+   ]
+  },
+  "colonialrev": {
+   "n": 5196,
+   "by_cont": {
+    "North America": {
+     "n": 1560,
+     "median": 1924
+    },
+    "Asia": {
+     "n": 11,
+     "median": 1903
+    },
+    "Oceania": {
+     "n": 15,
+     "median": 1930
+    }
+   },
+   "countries": 21,
+   "top": [
+    {
+     "iso": "USA",
+     "name": "United States of America",
+     "n": 4230
+    },
+    {
+     "iso": "BRA",
+     "name": "Brazil",
+     "n": 889
+    },
+    {
+     "iso": "CAN",
+     "name": "Canada",
+     "n": 18
+    },
+    {
+     "iso": "NZL",
+     "name": "New Zealand",
+     "n": 14
+    },
+    {
+     "iso": "JPN",
+     "name": "Japan",
+     "n": 10
+    },
+    {
+     "iso": "AUS",
+     "name": "Australia",
+     "n": 9
+    }
+   ],
+   "usa_pct": 81
+  },
+  "by_family": {
+   "byzantine": 1453,
+   "romanesque": 4302,
+   "gothic": 10776,
+   "renaissance": 6852,
+   "baroque": 1258,
+   "neoclassical": 6094,
+   "historicist": 39,
+   "colonial": 5196,
+   "islamic": 407,
+   "mughal": 49,
+   "precolumbian": 19
+  },
+  "by_family_pct": {
+   "byzantine": 53.5,
+   "romanesque": 30.5,
+   "gothic": 48.7,
+   "renaissance": 50.4,
+   "baroque": 7.4,
+   "neoclassical": 23.3,
+   "historicist": 0.2,
+   "colonial": 87.8,
+   "islamic": 25.1,
+   "mughal": 26.1,
+   "precolumbian": 63.3
+  }
+ },
+ "capitals": {
+  "radius_km": 15,
+  "min_n": 40,
+  "n_caps": 53,
+  "top": [
+   {
+    "name": "Helsinki",
+    "iso": "FIN",
+    "n": 114,
+    "neo": 37,
+    "neo_pct": 32.5,
+    "dom": "neoclassical"
+   },
+   {
+    "name": "Dublin",
+    "iso": "IRL",
+    "n": 44,
+    "neo": 13,
+    "neo_pct": 29.5,
+    "dom": "gothic"
+   },
+   {
+    "name": "Minsk",
+    "iso": "BLR",
+    "n": 319,
+    "neo": 89,
+    "neo_pct": 27.9,
+    "dom": "historicist"
+   },
+   {
+    "name": "Santiago",
+    "iso": "CHL",
+    "n": 65,
+    "neo": 18,
+    "neo_pct": 27.7,
+    "dom": "gothic"
+   },
+   {
+    "name": "Washington, D.C.",
+    "iso": "USA",
+    "n": 555,
+    "neo": 154,
+    "neo_pct": 27.7,
+    "dom": "neoclassical"
+   },
+   {
+    "name": "Moscow",
+    "iso": "RUS",
+    "n": 969,
+    "neo": 262,
+    "neo_pct": 27.0,
+    "dom": "modern"
+   },
+   {
+    "name": "Tbilisi",
+    "iso": "GEO",
+    "n": 90,
+    "neo": 24,
+    "neo_pct": 26.7,
+    "dom": "neoclassical"
+   },
+   {
+    "name": "København",
+    "iso": "DNK",
+    "n": 146,
+    "neo": 39,
+    "neo_pct": 26.7,
+    "dom": "baroque"
+   },
+   {
+    "name": "Warsaw",
+    "iso": "POL",
+    "n": 429,
+    "neo": 104,
+    "neo_pct": 24.2,
+    "dom": "modern"
+   },
+   {
+    "name": "Vilnius",
+    "iso": "LTU",
+    "n": 96,
+    "neo": 22,
+    "neo_pct": 22.9,
+    "dom": "baroque"
+   },
+   {
+    "name": "Paris",
+    "iso": "FRA",
+    "n": 677,
+    "neo": 136,
+    "neo_pct": 20.1,
+    "dom": "neoclassical"
+   },
+   {
+    "name": "London",
+    "iso": "GBR",
+    "n": 771,
+    "neo": 155,
+    "neo_pct": 20.1,
+    "dom": "neoclassical"
+   }
+  ],
+  "neo_dom": [
+   "Helsinki",
+   "Washington, D.C.",
+   "Tbilisi",
+   "Paris",
+   "London",
+   "Havana"
+  ],
+  "n_neo_dom": 6
+ },
+ "best": {
+  "by_family": {
+   "ancient": [
+    {
+     "q": "Q10285",
+     "name": "Colosseum",
+     "sl": 148,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": 82,
+     "style": "ancient Roman architecture"
+    },
+    {
+     "q": "Q10288",
+     "name": "Parthenon",
+     "sl": 138,
+     "iso": "GRC",
+     "country": "Greece",
+     "y": -500,
+     "style": "peripteral"
+    },
+    {
+     "q": "Q37200",
+     "name": "Great Pyramid of Giza",
+     "sl": 126,
+     "iso": "EGY",
+     "country": "Egypt",
+     "y": -2559,
+     "style": "ancient Egyptian architecture"
+    },
+    {
+     "q": "Q129072",
+     "name": "Persepolis",
+     "sl": 103,
+     "iso": "IRN",
+     "country": "Iran",
+     "y": -510,
+     "style": "Achaemenid architecture"
+    },
+    {
+     "q": "Q43244",
+     "name": "Lighthouse of Alexandria",
+     "sl": 96,
+     "iso": "EGY",
+     "country": "Egypt",
+     "y": -278,
+     "style": "Hellenistic architecture"
+    },
+    {
+     "q": "Q43018",
+     "name": "Temple of Ephesian Artemis",
+     "sl": 94,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": -322,
+     "style": "ancient Greek architecture"
+    }
+   ],
+   "byzantine": [
+    {
+     "q": "Q12506",
+     "name": "Hagia Sophia",
+     "sl": 152,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": 532,
+     "style": "Byzantine architecture"
+    },
+    {
+     "q": "Q187702",
+     "name": "Church of the Holy Sepulchre",
+     "sl": 76,
+     "iso": "PSE",
+     "country": "Palestine",
+     "y": 335,
+     "style": "Early Christian architecture"
+    },
+    {
+     "q": "Q185362",
+     "name": "Saint Catherine Monastery",
+     "sl": 75,
+     "iso": "EGY",
+     "country": "Egypt",
+     "y": null,
+     "style": "Byzantine architecture"
+    },
+    {
+     "q": "Q172988",
+     "name": "St Mark's Basilica",
+     "sl": 65,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": 828,
+     "style": "Byzantine architecture"
+    },
+    {
+     "q": "Q194504",
+     "name": "Church of the Nativity",
+     "sl": 62,
+     "iso": "PSE",
+     "country": "Palestine",
+     "y": 327,
+     "style": "Early Christian architecture"
+    },
+    {
+     "q": "Q194474",
+     "name": "Cathedral of Christ the Saviour",
+     "sl": 61,
+     "iso": "RUS",
+     "country": "Russia",
+     "y": 2000,
+     "style": "Russian-Byzantine architecture"
+    }
+   ],
+   "romanesque": [
+    {
+     "q": "Q39054",
+     "name": "Leaning Tower of Pisa",
+     "sl": 119,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": 1173,
+     "style": "Romanesque architecture"
+    },
+    {
+     "q": "Q4152",
+     "name": "Neuschwanstein Castle",
+     "sl": 93,
+     "iso": "DEU",
+     "country": "Germany",
+     "y": 1869,
+     "style": "Romanesque Revival architecture"
+    },
+    {
+     "q": "Q62378",
+     "name": "Tower of London",
+     "sl": 88,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1066,
+     "style": "Norman architecture"
+    },
+    {
+     "q": "Q29265",
+     "name": "Canterbury Cathedral",
+     "sl": 66,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 597,
+     "style": "Norman architecture"
+    },
+    {
+     "q": "Q205136",
+     "name": "Cathedral of Santiago de Compostela",
+     "sl": 65,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": 801,
+     "style": "Romanesque architecture"
+    },
+    {
+     "q": "Q5908",
+     "name": "Aachen Cathedral",
+     "sl": 64,
+     "iso": "DEU",
+     "country": "Germany",
+     "y": 801,
+     "style": "Pre-Romanesque architecture"
+    }
+   ],
+   "gothic": [
+    {
+     "q": "Q2981",
+     "name": "Notre-Dame de Paris",
+     "sl": 125,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1163,
+     "style": "Rayonnant"
+    },
+    {
+     "q": "Q5933",
+     "name": "Westminster Abbey",
+     "sl": 91,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 901,
+     "style": "Gothic art"
+    },
+    {
+     "q": "Q41225",
+     "name": "Big Ben",
+     "sl": 88,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1843,
+     "style": "Gothic Revival"
+    },
+    {
+     "q": "Q4176",
+     "name": "Cologne Cathedral",
+     "sl": 86,
+     "iso": "DEU",
+     "country": "Germany",
+     "y": 1248,
+     "style": "Gothic architecture"
+    },
+    {
+     "q": "Q62408",
+     "name": "Palace of Westminster",
+     "sl": 86,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": null,
+     "style": "Perpendicular Gothic"
+    },
+    {
+     "q": "Q83125",
+     "name": "Tower Bridge",
+     "sl": 86,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1886,
+     "style": "Gothic Revival"
+    }
+   ],
+   "renaissance": [
+    {
+     "q": "Q12512",
+     "name": "St. Peter's Basilica",
+     "sl": 131,
+     "iso": "VAT",
+     "country": "Vatican City",
+     "y": 1506,
+     "style": "Renaissance architecture"
+    },
+    {
+     "q": "Q1143049",
+     "name": "Château de Montsoreau",
+     "sl": 100,
+     "iso": "FRA",
+     "country": "France",
+     "y": 990,
+     "style": "Renaissance architecture"
+    },
+    {
+     "q": "Q2943",
+     "name": "Sistine Chapel",
+     "sl": 90,
+     "iso": "VAT",
+     "country": "Vatican City",
+     "y": 1473,
+     "style": "Renaissance architecture"
+    },
+    {
+     "q": "Q28471",
+     "name": "Royal Monastery of San Lorenzo de El Escorial",
+     "sl": 82,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": 1563,
+     "style": "Renaissance architecture"
+    },
+    {
+     "q": "Q151897",
+     "name": "Reichstag",
+     "sl": 75,
+     "iso": "DEU",
+     "country": "Germany",
+     "y": 1894,
+     "style": "Renaissance Revival architecture"
+    },
+    {
+     "q": "Q43014",
+     "name": "Sabbioneta",
+     "sl": 71,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": null,
+     "style": "Renaissance architecture"
+    }
+   ],
+   "baroque": [
+    {
+     "q": "Q2946",
+     "name": "Palace of Versailles",
+     "sl": 109,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1661,
+     "style": "French Baroque architecture"
+    },
+    {
+     "q": "Q182147",
+     "name": "Winter Palace",
+     "sl": 76,
+     "iso": "RUS",
+     "country": "Russia",
+     "y": 1754,
+     "style": "Elizabethan Baroque"
+    },
+    {
+     "q": "Q173882",
+     "name": "St Paul's Cathedral",
+     "sl": 74,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1675,
+     "style": "English Baroque"
+    },
+    {
+     "q": "Q185382",
+     "name": "Trevi Fountain",
+     "sl": 68,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": 1732,
+     "style": "Italian Baroque architecture"
+    },
+    {
+     "q": "Q242711",
+     "name": "Kyiv Pechersk Lavra",
+     "sl": 67,
+     "iso": "UKR",
+     "country": "Ukraine",
+     "y": 1051,
+     "style": "Ukrainian Baroque"
+    },
+    {
+     "q": "Q83425",
+     "name": "Saint Peter's Square",
+     "sl": 66,
+     "iso": "VAT",
+     "country": "Vatican City",
+     "y": null,
+     "style": "Italian Baroque architecture"
+    }
+   ],
+   "neoclassical": [
+    {
+     "q": "Q9202",
+     "name": "Statue of Liberty",
+     "sl": 159,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1886,
+     "style": "Neoclassical architecture"
+    },
+    {
+     "q": "Q35525",
+     "name": "White House",
+     "sl": 143,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1800,
+     "style": "Neoclassical architecture"
+    },
+    {
+     "q": "Q11208",
+     "name": "The Pentagon",
+     "sl": 102,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1941,
+     "style": "Stripped Classicism"
+    },
+    {
+     "q": "Q42182",
+     "name": "Buckingham Palace",
+     "sl": 95,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1703,
+     "style": "Georgian architecture"
+    },
+    {
+     "q": "Q45368",
+     "name": "Mausoleum at Halicarnassus",
+     "sl": 90,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": -350,
+     "style": "classical architecture"
+    },
+    {
+     "q": "Q64436",
+     "name": "Arc de Triomphe",
+     "sl": 86,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1836,
+     "style": "Neoclassical architecture"
+    }
+   ],
+   "historicist": [
+    {
+     "q": "Q187840",
+     "name": "Palais Garnier",
+     "sl": 63,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1861,
+     "style": "Second Empire style"
+    },
+    {
+     "q": "Q11290",
+     "name": "Grand Central Terminal",
+     "sl": 52,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1913,
+     "style": "Beaux-Arts"
+    },
+    {
+     "q": "Q632682",
+     "name": "Brooklyn Museum",
+     "sl": 48,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1897,
+     "style": "Beaux-Arts"
+    },
+    {
+     "q": "Q820892",
+     "name": "Petit Palais",
+     "sl": 48,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1902,
+     "style": "Beaux-Arts"
+    },
+    {
+     "q": "Q148554",
+     "name": "National Museum of Natural History",
+     "sl": 47,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1910,
+     "style": "Beaux-Arts"
+    },
+    {
+     "q": "Q155693",
+     "name": "Lichtenstein Castle",
+     "sl": 45,
+     "iso": "DEU",
+     "country": "Germany",
+     "y": 1840,
+     "style": "historicist architecture"
+    }
+   ],
+   "colonial": [
+    {
+     "q": "Q37819",
+     "name": "Auckland Grammar School",
+     "sl": 95,
+     "iso": "NZL",
+     "country": "New Zealand",
+     "y": 1868,
+     "style": "Spanish Colonial Revival architecture"
+    },
+    {
+     "q": "Q200959",
+     "name": "Carnegie Hall",
+     "sl": 50,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1891,
+     "style": "Mediterranean Revival architecture"
+    },
+    {
+     "q": "Q545360",
+     "name": "Graceland",
+     "sl": 35,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1939,
+     "style": "Colonial Revival architecture"
+    },
+    {
+     "q": "Q378143",
+     "name": "Hearst Castle",
+     "sl": 28,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1919,
+     "style": "Mediterranean Revival architecture"
+    },
+    {
+     "q": "Q1559342",
+     "name": "Hollywood Roosevelt Hotel",
+     "sl": 24,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1927,
+     "style": "Spanish Colonial Revival architecture"
+    },
+    {
+     "q": "Q942688",
+     "name": "Malacañang Palace",
+     "sl": 24,
+     "iso": "PHL",
+     "country": "Philippines",
+     "y": null,
+     "style": "Spanish Colonial architecture"
+    }
+   ],
+   "crafts": [
+    {
+     "q": "Q463179",
+     "name": "Fallingwater",
+     "sl": 61,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1936,
+     "style": "organic architecture"
+    },
+    {
+     "q": "Q309202",
+     "name": "Camp David",
+     "sl": 45,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1935,
+     "style": "National Park Service rustic"
+    },
+    {
+     "q": "Q281900",
+     "name": "Saint Petersburg Mosque",
+     "sl": 42,
+     "iso": "RUS",
+     "country": "Russia",
+     "y": 1921,
+     "style": "national Romantic style"
+    },
+    {
+     "q": "Q1044613",
+     "name": "Helsinki Central Railway Station",
+     "sl": 36,
+     "iso": "FIN",
+     "country": "Finland",
+     "y": 1909,
+     "style": "national Romantic style"
+    },
+    {
+     "q": "Q678791",
+     "name": "Oxford Circus tube station",
+     "sl": 31,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": null,
+     "style": "Arts and Crafts movement"
+    },
+    {
+     "q": "Q1279102",
+     "name": "Hyde Park Corner tube station",
+     "sl": 29,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": null,
+     "style": "Arts and Crafts movement"
+    }
+   ],
+   "nouveau": [
+    {
+     "q": "Q48435",
+     "name": "Basilica and Expiatory Church of the Holy Family",
+     "sl": 109,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": 1882,
+     "style": "Catalan modernism"
+    },
+    {
+     "q": "Q212867",
+     "name": "Park Güell",
+     "sl": 55,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": null,
+     "style": "Catalan modernism"
+    },
+    {
+     "q": "Q207870",
+     "name": "Casa Milà",
+     "sl": 52,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": 1906,
+     "style": "Catalan modernism"
+    },
+    {
+     "q": "Q457318",
+     "name": "Grand Palais",
+     "sl": 51,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1900,
+     "style": "Art Nouveau architecture"
+    },
+    {
+     "q": "Q461371",
+     "name": "Casa Batlló",
+     "sl": 51,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": 1877,
+     "style": "Catalan modernism"
+    },
+    {
+     "q": "Q1440653",
+     "name": "House with Chimaeras",
+     "sl": 45,
+     "iso": "UKR",
+     "country": "Ukraine",
+     "y": 1902,
+     "style": "Art Nouveau architecture"
+    }
+   ],
+   "deco": [
+    {
+     "q": "Q9188",
+     "name": "Empire State Building",
+     "sl": 125,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1931,
+     "style": "Art Deco architecture"
+    },
+    {
+     "q": "Q11274",
+     "name": "Chrysler Building",
+     "sl": 75,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1930,
+     "style": "Art Deco"
+    },
+    {
+     "q": "Q163782",
+     "name": "St Peter's College",
+     "sl": 53,
+     "iso": "NZL",
+     "country": "New Zealand",
+     "y": 1939,
+     "style": "Art Deco"
+    },
+    {
+     "q": "Q11277",
+     "name": "Rockefeller Center",
+     "sl": 48,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": null,
+     "style": "Art Deco architecture"
+    },
+    {
+     "q": "Q205309",
+     "name": "Arsenal Stadium",
+     "sl": 45,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1913,
+     "style": "Art Deco"
+    },
+    {
+     "q": "Q218305",
+     "name": "40 Wall Street",
+     "sl": 39,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1930,
+     "style": "Art Deco architecture"
+    }
+   ],
+   "modern": [
+    {
+     "q": "Q45178",
+     "name": "Sydney Opera House",
+     "sl": 99,
+     "iso": "AUS",
+     "country": "Australia",
+     "y": 1973,
+     "style": "expressionist architecture"
+    },
+    {
+     "q": "Q29294",
+     "name": "Willis Tower",
+     "sl": 97,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1971,
+     "style": "International Style"
+    },
+    {
+     "q": "Q42258",
+     "name": "Mirante do Vale",
+     "sl": 71,
+     "iso": "BRA",
+     "country": "Brazil",
+     "y": 1960,
+     "style": "International Style"
+    },
+    {
+     "q": "Q201469",
+     "name": "Solomon R. Guggenheim Museum",
+     "sl": 60,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1937,
+     "style": "modern architecture"
+    },
+    {
+     "q": "Q940843",
+     "name": "Lotus Temple",
+     "sl": 56,
+     "iso": "IND",
+     "country": "India",
+     "y": 1986,
+     "style": "expressionist architecture"
+    },
+    {
+     "q": "Q202902",
+     "name": "The Crystal Palace",
+     "sl": 52,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1851,
+     "style": "glass architecture"
+    }
+   ],
+   "brutalist": [
+    {
+     "q": "Q606069",
+     "name": "Kumsusan Palace of the Sun",
+     "sl": 36,
+     "iso": "PRK",
+     "country": "North Korea",
+     "y": 1976,
+     "style": "brutalist architecture"
+    },
+    {
+     "q": "Q653858",
+     "name": "Barbican Centre",
+     "sl": 36,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": 1982,
+     "style": "brutalist architecture"
+    },
+    {
+     "q": "Q76318",
+     "name": "Rogers Centre",
+     "sl": 36,
+     "iso": "CAN",
+     "country": "Canada",
+     "y": 1989,
+     "style": "brutalist architecture"
+    },
+    {
+     "q": "Q1362629",
+     "name": "National Museum of Western Art",
+     "sl": 35,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 1959,
+     "style": "brutalist architecture"
+    },
+    {
+     "q": "Q497536",
+     "name": "Jatiya Sangsad Bhaban",
+     "sl": 35,
+     "iso": "BGD",
+     "country": "Bangladesh",
+     "y": 1982,
+     "style": "brutalist architecture"
+    },
+    {
+     "q": "Q1781591",
+     "name": "Palais des congrès de Paris",
+     "sl": 33,
+     "iso": "FRA",
+     "country": "France",
+     "y": 1974,
+     "style": "brutalist architecture"
+    }
+   ],
+   "postmodern": [
+    {
+     "q": "Q12495",
+     "name": "Burj Khalifa",
+     "sl": 140,
+     "iso": "ARE",
+     "country": "United Arab Emirates",
+     "y": 2004,
+     "style": "neo-futurism"
+    },
+    {
+     "q": "Q83063",
+     "name": "Petronas Towers",
+     "sl": 89,
+     "iso": "MYS",
+     "country": "Malaysia",
+     "y": 1993,
+     "style": "postmodern architecture"
+    },
+    {
+     "q": "Q83101",
+     "name": "Taipei 101",
+     "sl": 85,
+     "iso": "TWN",
+     "country": "Taiwan",
+     "y": 2005,
+     "style": "postmodern architecture"
+    },
+    {
+     "q": "Q1030463",
+     "name": "Mode Gakuen Cocoon Tower",
+     "sl": 83,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 2008,
+     "style": "high-tech architecture"
+    },
+    {
+     "q": "Q127429",
+     "name": "Allianz Arena",
+     "sl": 80,
+     "iso": "DEU",
+     "country": "Germany",
+     "y": null,
+     "style": "high-tech architecture"
+    },
+    {
+     "q": "Q62939",
+     "name": "Burj al-Arab",
+     "sl": 78,
+     "iso": "ARE",
+     "country": "United Arab Emirates",
+     "y": 1999,
+     "style": "high-tech architecture"
+    }
+   ],
+   "islamic": [
+    {
+     "q": "Q428858",
+     "name": "Al-Masjid Al-Haram",
+     "sl": 109,
+     "iso": "SAU",
+     "country": "Saudi Arabia",
+     "y": null,
+     "style": "Islamic architecture"
+    },
+    {
+     "q": "Q12192963",
+     "name": "Al-Aqsa Mosque",
+     "sl": 103,
+     "iso": "PSE",
+     "country": "Palestine",
+     "y": 710,
+     "style": "Islamic architecture"
+    },
+    {
+     "q": "Q47476",
+     "name": "Alhambra",
+     "sl": 96,
+     "iso": "ESP",
+     "country": "Spain",
+     "y": 1239,
+     "style": "Art of Al-Andalus"
+    },
+    {
+     "q": "Q172077",
+     "name": "Dome of the Rock",
+     "sl": 87,
+     "iso": "PSE",
+     "country": "Palestine",
+     "y": 691,
+     "style": "Umayyad art"
+    },
+    {
+     "q": "Q486080",
+     "name": "Prophet's Mosque",
+     "sl": 86,
+     "iso": "SAU",
+     "country": "Saudi Arabia",
+     "y": 622,
+     "style": "Islamic architecture"
+    },
+    {
+     "q": "Q183562",
+     "name": "Umayyad Mosque",
+     "sl": 78,
+     "iso": "SYR",
+     "country": "Syria",
+     "y": 706,
+     "style": "Umayyad architecture"
+    }
+   ],
+   "persian": [
+    {
+     "q": "Q4519",
+     "name": "Naqsh-e Jahan Square",
+     "sl": 67,
+     "iso": "IRN",
+     "country": "Iran",
+     "y": 1591,
+     "style": "Safavid architecture"
+    },
+    {
+     "q": "Q737835",
+     "name": "University of Tehran",
+     "sl": 54,
+     "iso": "IRN",
+     "country": "Iran",
+     "y": 1934,
+     "style": "Pahlavi architecture"
+    },
+    {
+     "q": "Q838359",
+     "name": "Imam Ali Mosque",
+     "sl": 52,
+     "iso": "IRQ",
+     "country": "Iraq",
+     "y": 977,
+     "style": "Safavid architecture"
+    },
+    {
+     "q": "Q4706020",
+     "name": "Alamut Castle",
+     "sl": 50,
+     "iso": "IRN",
+     "country": "Iran",
+     "y": null,
+     "style": "Nizari architecture"
+    },
+    {
+     "q": "Q643098",
+     "name": "Shah Mosque",
+     "sl": 49,
+     "iso": "IRN",
+     "country": "Iran",
+     "y": 1611,
+     "style": "Safavid architecture"
+    },
+    {
+     "q": "Q1140026",
+     "name": "Azadi Tower",
+     "sl": 47,
+     "iso": "IRN",
+     "country": "Iran",
+     "y": null,
+     "style": "Pahlavi architecture"
+    }
+   ],
+   "ottoman": [
+    {
+     "q": "Q80541",
+     "name": "Sultan Ahmed Mosque",
+     "sl": 89,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": 1609,
+     "style": "Ottoman architecture"
+    },
+    {
+     "q": "Q170495",
+     "name": "Topkapı Palace",
+     "sl": 79,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": 1460,
+     "style": "Ottoman architecture"
+    },
+    {
+     "q": "Q178643",
+     "name": "Süleymaniye Mosque",
+     "sl": 69,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": 1550,
+     "style": "Ottoman architecture"
+    },
+    {
+     "q": "Q184534",
+     "name": "Selimiye Mosque",
+     "sl": 67,
+     "iso": "TUR",
+     "country": "Turkey",
+     "y": 1575,
+     "style": "Ottoman architecture"
+    },
+    {
+     "q": "Q188528",
+     "name": "Stari Most",
+     "sl": 61,
+     "iso": "BIH",
+     "country": "Bosnia and Herzegovina",
+     "y": 1566,
+     "style": "Ottoman architecture"
+    },
+    {
+     "q": "Q210055",
+     "name": "Mehmed Paša Sokolović Bridge",
+     "sl": 52,
+     "iso": "BIH",
+     "country": "Bosnia and Herzegovina",
+     "y": null,
+     "style": "Ottoman architecture"
+    }
+   ],
+   "mughal": [
+    {
+     "q": "Q9141",
+     "name": "Taj Mahal",
+     "sl": 185,
+     "iso": "IND",
+     "country": "India",
+     "y": null,
+     "style": "Mughal architecture"
+    },
+    {
+     "q": "Q189648",
+     "name": "Humayun's Tomb",
+     "sl": 69,
+     "iso": "IND",
+     "country": "India",
+     "y": 1560,
+     "style": "Mughal architecture"
+    },
+    {
+     "q": "Q330872",
+     "name": "Badshahi Mosque",
+     "sl": 68,
+     "iso": "PAK",
+     "country": "Pakistan",
+     "y": 1671,
+     "style": "Mughal architecture"
+    },
+    {
+     "q": "Q836531",
+     "name": "Hawa Mahal",
+     "sl": 59,
+     "iso": "IND",
+     "country": "India",
+     "y": 1799,
+     "style": "Mughal architecture"
+    },
+    {
+     "q": "Q235884",
+     "name": "Chhatrapati Shivaji Maharaj Terminus",
+     "sl": 56,
+     "iso": "IND",
+     "country": "India",
+     "y": null,
+     "style": "Indo-Saracenic architecture"
+    },
+    {
+     "q": "Q695604",
+     "name": "Sheikh Zayed Mosque",
+     "sl": 56,
+     "iso": "ARE",
+     "country": "United Arab Emirates",
+     "y": 2007,
+     "style": "Mughal architecture"
+    }
+   ],
+   "hindu": [
+    {
+     "q": "Q752091",
+     "name": "Konark Sun Temple",
+     "sl": 55,
+     "iso": "IND",
+     "country": "India",
+     "y": 1201,
+     "style": "Kalinga architecture"
+    },
+    {
+     "q": "Q916943",
+     "name": "Prahadisvarar Temple",
+     "sl": 55,
+     "iso": "IND",
+     "country": "India",
+     "y": 1010,
+     "style": "Tamil architecture"
+    },
+    {
+     "q": "Q1143887",
+     "name": "Somnath temple",
+     "sl": 41,
+     "iso": "IND",
+     "country": "India",
+     "y": null,
+     "style": "Hindu temple architecture"
+    },
+    {
+     "q": "Q3675",
+     "name": "Kashi Vishwanath Temple",
+     "sl": 36,
+     "iso": "IND",
+     "country": "India",
+     "y": null,
+     "style": "Hindu temple"
+    },
+    {
+     "q": "Q1678260",
+     "name": "Jagannath Temple",
+     "sl": 33,
+     "iso": "IND",
+     "country": "India",
+     "y": null,
+     "style": "Kalinga architecture"
+    },
+    {
+     "q": "Q2671548",
+     "name": "Ranganathaswamy Temple, Srirangam",
+     "sl": 27,
+     "iso": "IND",
+     "country": "India",
+     "y": null,
+     "style": "Dravidian architecture"
+    }
+   ],
+   "chinese": [
+    {
+     "q": "Q125445",
+     "name": "Temple of Heaven",
+     "sl": 69,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": null,
+     "style": "Chinese architecture"
+    },
+    {
+     "q": "Q232771",
+     "name": "Shaolin Monastery",
+     "sl": 61,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": 495,
+     "style": "Chinese architecture"
+    },
+    {
+     "q": "Q820842",
+     "name": "Great Mosque of Xi'an",
+     "sl": 40,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": null,
+     "style": "Chinese architecture"
+    },
+    {
+     "q": "Q603256",
+     "name": "Niujie Mosque",
+     "sl": 34,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": 1442,
+     "style": "Chinese architecture"
+    },
+    {
+     "q": "Q1276887",
+     "name": "Xuankong Temple",
+     "sl": 32,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": 491,
+     "style": "Chinese architecture"
+    },
+    {
+     "q": "Q1264618",
+     "name": "White Horse Temple",
+     "sl": 29,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": 68,
+     "style": "Chinese architecture"
+    }
+   ],
+   "japanese": [
+    {
+     "q": "Q221716",
+     "name": "Kiyomizu-dera",
+     "sl": 77,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 778,
+     "style": "kakezukuri"
+    },
+    {
+     "q": "Q188754",
+     "name": "Himeji Castle",
+     "sl": 76,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 1346,
+     "style": "Japanese castle architecture"
+    },
+    {
+     "q": "Q191763",
+     "name": "Itsukushima Shrine",
+     "sl": 70,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 593,
+     "style": "Shinden-zukuri"
+    },
+    {
+     "q": "Q653433",
+     "name": "Tokyo National Museum",
+     "sl": 52,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 1872,
+     "style": "Imperial Crown Style"
+    },
+    {
+     "q": "Q242803",
+     "name": "Yasukuni Shrine",
+     "sl": 48,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 1869,
+     "style": "Shinmei-zukuri"
+    },
+    {
+     "q": "Q460367",
+     "name": "Tōdai-ji Temple",
+     "sl": 44,
+     "iso": "JPN",
+     "country": "Japan",
+     "y": 752,
+     "style": "Japanese Buddhist architecture"
+    }
+   ],
+   "seasian": [
+    {
+     "q": "Q43473",
+     "name": "Angkor Wat",
+     "sl": 137,
+     "iso": "KHM",
+     "country": "Cambodia",
+     "y": 802,
+     "style": "Khmer architecture"
+    },
+    {
+     "q": "Q873769",
+     "name": "Grand Palace",
+     "sl": 48,
+     "iso": "THA",
+     "country": "Thailand",
+     "y": 1782,
+     "style": "Thai architecture"
+    },
+    {
+     "q": "Q1045876",
+     "name": "Wat Phra Kaew",
+     "sl": 45,
+     "iso": "THA",
+     "country": "Thailand",
+     "y": 1785,
+     "style": "Ayutthaya Kingdom"
+    },
+    {
+     "q": "Q420618",
+     "name": "Royal Palace",
+     "sl": 23,
+     "iso": "KHM",
+     "country": "Cambodia",
+     "y": null,
+     "style": "Khmer architecture"
+    },
+    {
+     "q": "Q2390081",
+     "name": "Pura Ulun Danu Batur",
+     "sl": 15,
+     "iso": "IDN",
+     "country": "Indonesia",
+     "y": null,
+     "style": "Balinese architecture"
+    },
+    {
+     "q": "Q4845403",
+     "name": "Pura Goa Lawah",
+     "sl": 15,
+     "iso": "IDN",
+     "country": "Indonesia",
+     "y": null,
+     "style": "Balinese architecture"
+    }
+   ],
+   "precolumbian": [
+    {
+     "q": "Q2092506",
+     "name": "Picuris Pueblo",
+     "sl": 24,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": null,
+     "style": "Pueblo architecture"
+    },
+    {
+     "q": "Q690372",
+     "name": "Tazumal",
+     "sl": 23,
+     "iso": "SLV",
+     "country": "El Salvador",
+     "y": null,
+     "style": "Maya architecture"
+    },
+    {
+     "q": "Q3079894",
+     "name": "Guardian Building",
+     "sl": 14,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1929,
+     "style": "Mayan Revival architecture"
+    },
+    {
+     "q": "Q933431",
+     "name": "Fisher Building",
+     "sl": 14,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1928,
+     "style": "Mayan Revival architecture"
+    },
+    {
+     "q": "Q2144588",
+     "name": "Hollyhock House",
+     "sl": 13,
+     "iso": "USA",
+     "country": "United States of America",
+     "y": 1921,
+     "style": "Mayan Revival architecture"
+    },
+    {
+     "q": "Q2185890",
+     "name": "Tikal Temple I",
+     "sl": 13,
+     "iso": "GTM",
+     "country": "Guatemala",
+     "y": null,
+     "style": "Maya architecture"
+    }
+   ],
+   "vernacular": [
+    {
+     "q": "Q683632",
+     "name": "Great Mosque of Djenné",
+     "sl": 57,
+     "iso": "MLI",
+     "country": "Mali",
+     "y": 1906,
+     "style": "Sudano-Sahelian architecture"
+    },
+    {
+     "q": "Q503823",
+     "name": "Tomb of Askia",
+     "sl": 55,
+     "iso": "MLI",
+     "country": "Mali",
+     "y": 1495,
+     "style": "Sudano-Sahelian architecture"
+    },
+    {
+     "q": "Q338889",
+     "name": "Palace of the Shirvanshahs",
+     "sl": 49,
+     "iso": "AZE",
+     "country": "Azerbaijan",
+     "y": 1500,
+     "style": "Shirvan-Absheron architectural school"
+    },
+    {
+     "q": "Q842822",
+     "name": "Maiden Tower",
+     "sl": 48,
+     "iso": "AZE",
+     "country": "Azerbaijan",
+     "y": 1200,
+     "style": "Shirvan-Absheron architectural school"
+    },
+    {
+     "q": "Q755010",
+     "name": "Borgund Stave Church",
+     "sl": 35,
+     "iso": "NOR",
+     "country": "Norway",
+     "y": 1101,
+     "style": "stave church"
+    },
+    {
+     "q": "Q754560",
+     "name": "Ateshgah of Baku",
+     "sl": 33,
+     "iso": "AZE",
+     "country": "Azerbaijan",
+     "y": 1745,
+     "style": "Shirvan-Absheron architectural school"
+    }
+   ],
+   "other": [
+    {
+     "q": "Q39671",
+     "name": "Stonehenge",
+     "sl": 135,
+     "iso": "GBR",
+     "country": "United Kingdom",
+     "y": -3000,
+     "style": "prehistoric Britain"
+    },
+    {
+     "q": "Q6237",
+     "name": "Lecco",
+     "sl": 91,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": null,
+     "style": "Leonardo da Vinci"
+    },
+    {
+     "q": "Q71229",
+     "name": "Potala Palace",
+     "sl": 85,
+     "iso": "CHN",
+     "country": "People's Republic of China",
+     "y": 637,
+     "style": "dzong"
+    },
+    {
+     "q": "Q129846",
+     "name": "St. Basil's Cathedral",
+     "sl": 79,
+     "iso": "RUS",
+     "country": "Russia",
+     "y": 1555,
+     "style": "tented-roof church"
+    },
+    {
+     "q": "Q172613",
+     "name": "Teotihuacan",
+     "sl": 79,
+     "iso": "MEX",
+     "country": "Mexico",
+     "y": null,
+     "style": "Talud-tablero"
+    },
+    {
+     "q": "Q53302",
+     "name": "Palmanova",
+     "sl": 67,
+     "iso": "ITA",
+     "country": "Italy",
+     "y": null,
+     "style": "Radial plan"
+    }
+   ]
+  },
+  "overall": [
+   {
+    "q": "Q9141",
+    "name": "Taj Mahal",
+    "sl": 185,
+    "f": "mughal",
+    "iso": "IND",
+    "country": "India"
+   },
+   {
+    "q": "Q9202",
+    "name": "Statue of Liberty",
+    "sl": 159,
+    "f": "neoclassical",
+    "iso": "USA",
+    "country": "United States of America"
+   },
+   {
+    "q": "Q12506",
+    "name": "Hagia Sophia",
+    "sl": 152,
+    "f": "byzantine",
+    "iso": "TUR",
+    "country": "Turkey"
+   },
+   {
+    "q": "Q10285",
+    "name": "Colosseum",
+    "sl": 148,
+    "f": "ancient",
+    "iso": "ITA",
+    "country": "Italy"
+   },
+   {
+    "q": "Q35525",
+    "name": "White House",
+    "sl": 143,
+    "f": "neoclassical",
+    "iso": "USA",
+    "country": "United States of America"
+   },
+   {
+    "q": "Q12495",
+    "name": "Burj Khalifa",
+    "sl": 140,
+    "f": "postmodern",
+    "iso": "ARE",
+    "country": "United Arab Emirates"
+   },
+   {
+    "q": "Q10288",
+    "name": "Parthenon",
+    "sl": 138,
+    "f": "ancient",
+    "iso": "GRC",
+    "country": "Greece"
+   },
+   {
+    "q": "Q43473",
+    "name": "Angkor Wat",
+    "sl": 137,
+    "f": "seasian",
+    "iso": "KHM",
+    "country": "Cambodia"
+   },
+   {
+    "q": "Q39671",
+    "name": "Stonehenge",
+    "sl": 135,
+    "f": "other",
+    "iso": "GBR",
+    "country": "United Kingdom"
+   },
+   {
+    "q": "Q12512",
+    "name": "St. Peter's Basilica",
+    "sl": 131,
+    "f": "renaissance",
+    "iso": "VAT",
+    "country": "Vatican City"
+   },
+   {
+    "q": "Q37200",
+    "name": "Great Pyramid of Giza",
+    "sl": 126,
+    "f": "ancient",
+    "iso": "EGY",
+    "country": "Egypt"
+   },
+   {
+    "q": "Q2981",
+    "name": "Notre-Dame de Paris",
+    "sl": 125,
+    "f": "gothic",
+    "iso": "FRA",
+    "country": "France"
+   },
+   {
+    "q": "Q9188",
+    "name": "Empire State Building",
+    "sl": 125,
+    "f": "deco",
+    "iso": "USA",
+    "country": "United States of America"
+   },
+   {
+    "q": "Q39054",
+    "name": "Leaning Tower of Pisa",
+    "sl": 119,
+    "f": "romanesque",
+    "iso": "ITA",
+    "country": "Italy"
+   },
+   {
+    "q": "Q2946",
+    "name": "Palace of Versailles",
+    "sl": 109,
+    "f": "baroque",
+    "iso": "FRA",
+    "country": "France"
+   }
+  ],
+  "median_sl": 2
+ },
+ "regions": {
+  "usa": {
+   "f": "neoclassical",
+   "pct": 28.8,
+   "n": 40108
+  },
+  "esp": {
+   "f": "vernacular",
+   "pct": 42.2,
+   "n": 36031
+  },
+  "deu": {
+   "f": "gothic",
+   "pct": 29.3,
+   "n": 10751
+  },
+  "ita": {
+   "f": "baroque",
+   "pct": 24.8,
+   "n": 10623
+  },
+  "fra": {
+   "f": "romanesque",
+   "pct": 39.9,
+   "n": 6812
+  },
+  "gbr": {
+   "f": "gothic",
+   "pct": 45.4,
+   "n": 3999
+  },
+  "svk": {
+   "f": "baroque",
+   "pct": 22.6,
+   "n": 10366
+  },
+  "cze": {
+   "f": "baroque",
+   "pct": 28.7,
+   "n": 8288
+  },
+  "pol": {
+   "f": "gothic",
+   "pct": 29.7,
+   "n": 7362
+  },
+  "rus": {
+   "f": "neoclassical",
+   "pct": 29.5,
+   "n": 4307
+  },
+  "irn": {
+   "f": "persian",
+   "pct": 92.9,
+   "n": 2858
+  },
+  "tur": {
+   "f": "ottoman",
+   "pct": 74.8,
+   "n": 1422
+  },
+  "jpn": {
+   "f": "japanese",
+   "pct": 88.3,
+   "n": 1844
+  },
+  "ind": {
+   "f": "hindu",
+   "pct": 59.3,
+   "n": 1097
+  },
+  "chn": {
+   "f": "chinese",
+   "pct": 47.2,
+   "n": 373
+  },
+  "bra": {
+   "f": "colonial",
+   "pct": 42.9,
+   "n": 2119
+  },
+  "mex": {
+   "f": "baroque",
+   "pct": 40.8,
+   "n": 260
+  },
+  "aus": {
+   "f": "historicist",
+   "pct": 19.4,
+   "n": 500
+  },
+  "bel": {
+   "f": "deco",
+   "pct": 43.3,
+   "n": 4926
+  },
+  "nld": {
+   "f": "historicist",
+   "pct": 30.5,
+   "n": 3109
+  },
+  "can": {
+   "f": "gothic",
+   "pct": 21.9,
+   "n": 2540
+  },
+  "country_dom_counts": {
+   "baroque": 15,
+   "islamic": 14,
+   "gothic": 12,
+   "neoclassical": 12,
+   "ottoman": 6,
+   "historicist": 5,
+   "byzantine": 4,
+   "modern": 4,
+   "vernacular": 3,
+   "japanese": 2,
+   "deco": 2,
+   "romanesque": 2,
+   "mughal": 2,
+   "chinese": 2,
+   "colonial": 2,
+   "persian": 1,
+   "hindu": 1,
+   "postmodern": 1,
+   "renaissance": 1,
+   "seasian": 1,
+   "ancient": 1
+  },
+  "n_countries_20": 93,
+  "neo_dom_countries": [
+   "Chile",
+   "Cuba",
+   "Denmark",
+   "Ecuador",
+   "Finland",
+   "Lithuania",
+   "Moldova",
+   "Russia",
+   "Sweden",
+   "Ukraine",
+   "United States of America",
+   "Venezuela"
+  ]
+ },
+ "cards": {
+  "gothic_all": 22106,
+  "gothic_rev": 10776,
+  "gothic_orig": 11330,
+  "gothic_rev_pct": 49
+ }
+}

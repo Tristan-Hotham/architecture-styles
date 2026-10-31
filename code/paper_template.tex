@@ -1,0 +1,151 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array,xcolor,longtable}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[round]{natbib}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Styles in Stone: The World's Architectural Styles in Wikidata, Mapped Through Time},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Styles in Stone\par}
+\vspace{0.4em}
+{\large The world's architectural styles in Wikidata, mapped through time\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: \href{https://doi.org/{{DOI}}}{https://doi.org/{{DOI}}}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Architectural styles belong to times and places, and then travel. I map the architectural styles recorded in Wikidata for {{coverage.n|int}} buildings and structures with coordinates, which carry {{families.n_styles|int}} different style labels. I group the labels into {{families.n_fam|int}} families with a mapping table checked by hand for every style used by 20 or more buildings (covering {{families.hand_pairs_pct|pc}} of style statements), flag revival styles, and place the {{dates.n|int}} dated buildings ({{dates.pct|pc}}) in centuries. The textbook sequence emerges from the data unprompted: Romanesque is {{time.s1100_romanesque|pc}} of dated buildings from the 1100s, Gothic {{time.s1300_gothic|pc}} of the 1300s, Renaissance {{time.s1500_renaissance|pc}} of the 1500s, Baroque and Rococo {{time.s1700_baroque|pc}} of the 1700s, and revival styles make up {{time.s1800_revival|pc}} of the 1800s. Gothic Revival, with {{revivals.gothic.n|int}} buildings in {{revivals.gothic.n_countries|int}} countries, can be followed from Britain (first tenth of precisely dated buildings begun by {{revivals.gothic.gbr_p10|raw}}) to Canada, Australia, the United States and New Zealand. Neoclassical, the largest family, is the most common family in {{capitals.n_neo_dom|int}} of {{capitals.n_caps|int}} national capitals with enough buildings to compare. The record is very uneven: the United States and Spain hold {{coverage.usa_esp_pct|pc}} of the buildings, Europe {{coverage.europe_pct|pc}} and Africa {{coverage.africa_pct|f1}}\%, and about a fifth of dates are century-precision values. The atlas maps what Wikidata knows, and is explicit about what it does not.
+
+\textbf{Keywords:} architecture; architectural styles; Gothic Revival; Neoclassical; Wikidata; open data; historical geography; mapping
+\end{quote}
+
+\section{Introduction}
+Every European town can be read as a sequence of styles: round-arched Romanesque churches, Gothic cathedrals, Renaissance and Baroque palaces, Neoclassical public buildings, the eclectic and revival streets of the nineteenth century, Art Nouveau and Art Deco, and the modernist and Brutalist buildings of the twentieth. Styles also travelled. Gothic returned as Gothic Revival across Britain's settler colonies and the Americas, Greek temple fronts became the courthouses and banks of the United States, and the International Style spread worldwide.
+
+Architectural history describes these movements through canonical buildings. Open data offer a different and much broader, if shallower, view. Wikidata \citep{wikidata}, the collaborative knowledge base behind Wikipedia, records an `architectural style' (property P149) for well over a hundred thousand buildings and structures, many of them ordinary churches, houses and farm buildings loaded from national heritage registers. This study asks what that record shows when the styles are grouped into families, placed on a map and sorted by date, and how far the shape of the record reflects who has entered it.
+
+The result is an interactive atlas (\url{{{meta.page}}}) with a time slider, a `dominant style' view and search. This paper describes the data, the family mapping and the date handling, reports the main patterns, and sets out the limits of the source.
+
+\section{Data}
+All Wikidata extracts were retrieved through the QLever SPARQL engine \citep{qlever} in {{meta.retrieved|raw}}.
+
+\textbf{Buildings.} Every item with at least one architectural style (P149) and coordinates (P625): {{coverage.n|int}} items carrying {{families.n_pairs|int}} style statements. For each I kept the coordinates (the first point where an item has several), the English label ({{coverage.label_pct|pc}} have one), the number of sitelinks (wiki pages about the item in any language), the country (P17), the earliest inception date (P571) and the classes it is an instance of (P31). The most common classes are church building ({{coverage.church_n|int}} as first class) and house ({{coverage.house_n|int}}); a few items are monuments, bridges, districts or whole towns.
+
+\textbf{Styles.} For each of the {{families.n_styles|int}} styles in use, its English label, its parents (P279, subclass of) and wholes (P361, part of), and its start and end dates where given.
+
+\textbf{Geography.} Natural Earth 1:50m countries and populated places \citep{naturalearth}. A building's country is its Wikidata country where that has an ISO code, otherwise the country under its point.
+
+{{TABLE_SOURCES}}
+
+\section{Methods}
+\subsection{Style families}
+The {{families.n_styles|int}} labels range from broad movements (`baroque architecture', {{families.top_styles.1.n|int}} buildings) to narrow regional and technical terms (`Kasuga-zukuri', `Brabantine Gothic', `gable roof'). I grouped them into {{families.n_fam|int}} families and an `Other or general' group (Table~\ref{tab:fam}). Each style was assigned in three steps. First, every style used by 20 or more buildings was decided by hand ({{families.how_styles.hand|int}} styles, {{families.hand_pairs_pct|pc}} of all style statements), reading its label, parents and a sample of its buildings. Second, smaller styles were assigned by words in their English labels ({{families.how_styles.keyword|int}} styles). Third, the remainder took the family of the nearest classified ancestor in the P279 and P361 hierarchy ({{families.how_styles.ancestor|int}} styles). The {{families.how_styles.none|int}} styles left over, all rare, join `Other or general', as do general or technical labels such as `medieval architecture', `industrial architecture', roof forms and classical orders. The complete table, with the method used for each style, is published with the data.
+
+A style is a \emph{revival} when it re-uses an earlier style's forms in a later period. Revival styles keep the family of the style they revive and carry a flag: Gothic Revival is Gothic, Greek Revival Neoclassical, Moorish Revival Islamic, and Colonial, Spanish Colonial and Mission Revival Colonial. Some families combine movements that historians keep apart: socialist realist and Stalinist classicism are counted as Neoclassical revivals, and Noucentisme, the Catalan classicism of the early twentieth century, as historicist.
+
+A building with several styles ({{families.multi_fam|int}} have styles in more than one family) is coloured by its most specific style, the one used by the fewest buildings, ignoring `Other or general' where possible.
+
+\subsection{Dates}
+Inception (P571) is the date a building was begun or an institution founded. The extract gives the date but not its precision, and the distribution of years shows that this matters: {{dates.y2000|int}} buildings are dated exactly 2000 against {{dates.y1999|int}} for 1999 and {{dates.y2001|int}} for 2001, and {{dates.y1500|int}} exactly 1500 against {{dates.y1501|int}} for 1501. Wikidata stores a century-precision date as the last year of the century (`20th century' is 2000), so I read every year ending in 00 ({{dates.round100_pct|pc}} of dated buildings) as the middle of the century it ends. A sensitivity check reading them as written is reported below.
+
+Inception can also predate the present building: a medieval parish whose church was rebuilt in the nineteenth century keeps its founding date. I therefore set a plausible earliest year for each family and revival (for example 1740 for Gothic Revival, 1880 for Art Nouveau, 1945 for Brutalist) and leave buildings dated more than 25 years earlier out of the time analysis ({{dates.anach_n|int}} buildings, {{dates.anach_pct_dated|f1}}\% of those dated). {{dates.future_dropped|int}} dates after 2026 are treated as missing. {{dates.time_n|int}} buildings remain in the time analysis.
+
+\subsection{Revivals, capitals and dominance}
+For Gothic Revival I take buildings dated to a year (not a round century) from 1740 on, and for each country with at least 15 such buildings report the year by which the first tenth had been begun (the 10th percentile) and the median year. For capitals I count buildings within {{capitals.radius_km|int}} km of each Natural Earth national capital, keeping capitals with at least {{capitals.min_n|int}}. The `dominant style' of an area is the family with most buildings, ignoring `Other or general'.
+
+\section{Results}
+\subsection{Families}
+Neoclassical is the largest family ({{families.by.neoclassical|int}} buildings), followed by Gothic ({{families.by.gothic|int}}), Vernacular ({{families.by.vernacular|int}}), Historicist and eclectic ({{families.by.historicist|int}}) and Baroque and Rococo ({{families.by.baroque|int}}) (Figure~\ref{fig:fam}). {{families.revival_n|int}} buildings ({{families.revival_pct|pc}}) are in a revival style; {{revivals.by_family_pct.gothic|f1}}\% of Gothic buildings are Gothic Revival and {{revivals.by_family_pct.renaissance|f1}}\% of Renaissance buildings are Renaissance Revival or Italianate. The families from outside the European tradition (Islamic, Persian, Ottoman, Mughal and Indo-Islamic, Hindu temple, Chinese and Korean, Japanese, Southeast Asian and Pre-Columbian) hold {{families.non_euro_pct|pc}} of the buildings together.
+
+\begin{figure}[tbp]\centering\includegraphics[width=.84\textwidth]{f_families.png}
+\caption{Buildings by style family. Hatched: revival styles.}\label{fig:fam}\end{figure}
+
+{{TABLE_FAMILIES}}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_world_map.png}
+\caption{All {{coverage.n|int}} buildings, coloured by style family.}\label{fig:world}\end{figure}
+
+\subsection{Through time}
+Sorted into centuries, the dated buildings reproduce the conventional sequence of European architecture (Figure~\ref{fig:cent}). Romanesque leads every century from the 800s to the 1100s ({{time.s1100_romanesque|pc}} in the 1100s); Gothic leads from the 1200s to the 1400s ({{time.s1300_gothic|pc}} in the 1300s); Renaissance leads the 1500s ({{time.s1500_renaissance|pc}}); Baroque and Rococo lead the 1600s and 1700s ({{time.s1700_baroque|pc}} in the 1700s); and Neoclassical leads the 1800s ({{time.s1800_neoclassical|pc}}), a century in which revival styles of every kind make up {{time.s1800_revival|pc}} of dated buildings. The 1900s are the most varied century: Modernist leads with only {{time.s1900_modern|pc}}, ahead of historicist, Art Deco ({{time.s1900_deco|pc}}) and Art Nouveau ({{time.s1900_nouveau|pc}}). Since 2000 postmodern and contemporary styles lead ({{time.s2000_postmodern|pc}}). Before the 1100s every century rests on fewer than a thousand buildings, and Japanese shrine and tomb styles lead from the 300s to the 700s.
+
+The sequence is also geographical (Figure~\ref{fig:eur}). In the 1100s Romanesque covers western and central Europe; by the 1300s Gothic dominates from England to the Baltic; in the 1500s Renaissance leads in Spain, Bohemia and Poland while the Ottoman Balkans differ; the 1700s are Baroque across central Europe, with Neoclassical already ahead in Britain and Scandinavia; the 1800s mix Gothic Revival in Britain with Neoclassical and historicist styles further east; and the 1900s break into Modernist, Art Deco (most visibly in Belgium) and Art Nouveau.
+
+Reading round-century years as written rather than as century-precision dates moves the share of a family in a century by up to {{time.sens_maxdiff|f1}} percentage points and changes the leading family in {{time.sens_domchange|int}} centuries with at least 50 buildings; the sequence above is unchanged in outline.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_centuries.png}
+\caption{Share of dated buildings by style family and century, with the number of buildings under each column.}\label{fig:cent}\end{figure}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_europe_centuries.png}
+\caption{Dominant style family in each 1-degree square of Europe, for buildings begun in six centuries. Paler squares hold fewer buildings.}\label{fig:eur}\end{figure}
+
+\subsection{How revivals travelled}
+Gothic Revival is the largest revival: {{revivals.gothic.n|int}} buildings in {{revivals.gothic.n_countries|int}} countries, {{revivals.gothic.outside_europe_pct|pc}} outside Europe. The United States has the most ({{revivals.gothic.usa|int}}), ahead of Germany ({{revivals.gothic.deu|int}}), Poland ({{revivals.gothic.pol|int}}) and the United Kingdom ({{revivals.gothic.gbr|int}}). The dates follow the revival outward from Britain (Table~\ref{tab:gr}, Figure~\ref{fig:gr}): the first tenth of British buildings were begun by {{revivals.gothic.gbr_p10|raw}}, of Canadian by {{revivals.gothic.can_p10|raw}}, Australian by {{revivals.gothic.aus_p10|raw}}, American by {{revivals.gothic.usa_p10|raw}} and New Zealand's by {{revivals.gothic.nzl_p10|raw}}. The United States kept building it longest (median {{revivals.gothic.usa_med|raw}}, against {{revivals.gothic.gbr_med|raw}} in Britain). Russia's early tenth reflects the `pseudo-Gothic' palaces and churches of the 1770s and 1780s, such as Chesme and Tsaritsyno.
+
+Other revivals were more concentrated. Of {{revivals.greek.n|int}} Greek Revival buildings, {{revivals.greek.usa_pct|pc}} are in the United States. Colonial, Spanish Colonial, Mission and related revivals ({{revivals.colonialrev.n|int}} buildings) are {{revivals.colonialrev.usa_pct|pc}} American, with Brazil second. Moorish Revival is the most dispersed relative to its size: {{revivals.moorish.n|int}} buildings in {{revivals.moorish.countries|int}} countries, led by Spain and the United States.
+
+{{TABLE_GR}}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_gothic_revival.png}
+\caption{Gothic Revival buildings coloured by the year they were begun (years only; buildings dated only to a century, or undated, in grey).}\label{fig:gr}\end{figure}
+
+\subsection{Capitals}
+Of {{capitals.n_caps|int}} national capitals with at least {{capitals.min_n|int}} buildings within {{capitals.radius_km|int}} km, Neoclassical is the most common family in {{capitals.n_neo_dom|int}}: Helsinki, Washington, Tbilisi, Paris, London and Havana. Helsinki has the highest Neoclassical share ({{capitals.top.0.neo_pct|f1}}\%), reflecting the Empire-style centre built after it became capital of the Grand Duchy of Finland, followed by Dublin, Minsk, Santiago and Washington (Figure~\ref{fig:cap}).
+
+\begin{figure}[tbp]\centering\includegraphics[width=.84\textwidth]{f_capitals.png}
+\caption{Neoclassical share of buildings within {{capitals.radius_km|int}} km of national capitals (top 12 of {{capitals.n_caps|int}}).}\label{fig:cap}\end{figure}
+
+\subsection{Coverage}
+The record is concentrated (Figure~\ref{fig:cov}). The United States ({{coverage.top.0.pct|f1}}\%) and Spain ({{coverage.top.1.pct|f1}}\%) hold {{coverage.usa_esp_pct|pc}} of all buildings; Germany, Italy and Slovakia follow, and the top five countries hold {{coverage.top5_pct|f1}}\%. Germany, France and the United Kingdom together hold {{coverage.deu_fra_gbr_pct|f1}}\%. Spain's total includes {{coverage.esp_masia|int}} Catalan farmhouses (masies) and {{coverage.esp_silo|int}} grain silos; Slovakia has the most buildings per head of any country with over two million people ({{coverage.per_million_top.0.v|int}} per million), and only {{coverage.svk_label_pct|pc}} of its items have an English label. By continent Europe holds {{coverage.europe_pct|f1}}\%, North America {{coverage.namerica_pct|f1}}\%, Asia {{coverage.asia_pct|f1}}\%, South America {{coverage.samerica_pct|f1}}\%, Oceania {{coverage.oceania_pct|f1}}\% and Africa {{coverage.africa_pct|f1}}\%. China has {{coverage.chn_n|int}} buildings with a style and India {{coverage.ind_n|int}}. Half of all buildings have {{best.median_sl|int}} wiki pages or fewer; {{coverage.sl0_pct|f1}}\% have none.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_coverage.png}
+\caption{Share of buildings by country (top 12) and continent.}\label{fig:cov}\end{figure}
+
+\section{Discussion}
+The first finding is reassuring: a crowd-sourced database, with no notion of a canon, reproduces the outline of the architectural history textbook. Romanesque, Gothic, Renaissance, Baroque, Neoclassical and Modernist each lead their centuries in turn, and the maps show Gothic consolidating in the north and Baroque in the Catholic centre of Europe. The dated buildings also show the nineteenth century as the century of revivals, and allow the spread of Gothic Revival through Britain's settler colonies and the United States to be followed decade by decade.
+
+The second finding is about the record. The style property is used most where heritage lists appear to have been loaded in bulk, and the large blocks of American houses and courthouses, Catalan farmhouses, and Slovak, Czech and Belgian monuments leave their mark on every count, which is why Belgium's buildings are most often Art Deco and Spain's most often vernacular. Outside Europe and North America, styles are recorded mainly for famous sites, and the labels themselves are European in outlook: Iranian buildings are labelled by dynasty, Japanese shrines by roof type, and few Maya or Inca sites carry a style at all. The map is a map of attention as much as of architecture.
+
+\section{Limitations}
+First, coverage is uneven between countries and kinds of building, and nothing here is a census. Second, Wikidata's style statements are of mixed quality: overlapping labels (`Classicism', `Neoclassicism', `Neoclassical architecture'), styles of a later rebuild attached to an older building, and a few whole towns. Third, the family mapping involves judgement, especially for broad or political labels and for styles that straddle families; the full table is published so that others can change it. Fourth, dates are founding dates of uncertain precision; the reading of round-century years and the exclusion of anachronistic dates are reasonable but not exact. Fifth, sitelinks measure documentation, not importance.
+
+\section{Conclusion}
+Wikidata's architectural styles give a recognisable, if Europe-heavy, map of the world's building styles through time. Grouped into families and dated with care, they recover the familiar sequence of styles and trace how revivals travelled; read critically, they also show where the record is thin. The atlas and its data are offered as a starting point for exploration and correction.
+
+\section*{Data and code availability}
+The interactive atlas is at \url{{{meta.page}}}. Data and code are at \url{{{meta.repo}}} and archived with this paper at \url{https://doi.org/{{DOI}}}. Wikidata content is CC0; the derived data and text are released under CC BY 4.0 and the code under the MIT licence.
+
+\section*{AI statement}
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\begin{thebibliography}{9}
+\bibitem[Bast and Buchhold(2017)]{qlever} Bast, H. and Buchhold, B. (2017) QLever: a query engine for efficient SPARQL+text search. \emph{Proceedings of the 2017 ACM Conference on Information and Knowledge Management}, 647 to 656. \url{https://qlever.cs.uni-freiburg.de/}
+\bibitem[Natural Earth(2026)]{naturalearth} Natural Earth (2026) Admin 0 countries (1:50m) and populated places (1:10m). Public domain. \url{https://www.naturalearthdata.com/}
+\bibitem[Vrandečić and Krötzsch(2014)]{wikidata} Vrandečić, D. and Krötzsch, M. (2014) Wikidata: a free collaborative knowledgebase. \emph{Communications of the ACM}, 57(10), 78 to 85.
+\bibitem[Wikidata(2026)]{p149} Wikidata contributors (2026) Property P149, architectural style. \url{https://www.wikidata.org/wiki/Property:P149}
+\end{thebibliography}
+\end{document}
