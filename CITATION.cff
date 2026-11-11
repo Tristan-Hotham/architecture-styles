@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Styles in Stone: The World's Architectural Styles in Wikidata, Mapped Through Time"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23842989"
+url: "https://maps.tristanhotham.com/architecture-styles/"
+repository-code: "https://github.com/Tristan-Hotham/architecture-styles"
+license: CC-BY-4.0
+keywords:
+  - "architecture"
+  - "architectural styles"
+  - "Gothic Revival"
+  - "Neoclassical architecture"
+  - "historical geography"
+  - "Wikidata"
+  - "open data"
+  - "maps"
